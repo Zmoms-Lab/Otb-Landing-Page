@@ -1,0 +1,19 @@
+OTB website — GoDaddy deployment
+================================
+FILES
+  index.html             the whole site (self-contained: 3D, animations, chat UI)
+  api/concierge.php      makes the Claude assistant answer live on your domain
+  api/config.php.example where your Anthropic key goes
+
+STEPS
+  1) cPanel -> File Manager -> public_html -> upload index.html
+  2) make a folder "api" in public_html, upload concierge.php into it
+  3) in public_html/api create config.php containing:
+        <?php  define('ANTHROPIC_API_KEY', 'sk-ant-your-real-key');
+     (key from https://console.anthropic.com -> Settings -> API Keys)
+  4) visit your domain. The chat now answers using Claude, key kept on the server.
+
+NOTES
+  - Needs PHP (every standard GoDaddy cPanel plan has it).
+  - Without the key the site still works; the chat shows a "contact us" message.
+  - Never put the API key in index.html.
