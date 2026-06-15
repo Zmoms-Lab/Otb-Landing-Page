@@ -1,0 +1,54 @@
+<nav id="nav">
+  <div class="logo" onclick="nav('home')">
+    <div class="logo-mark"><span>O</span></div>
+    <div class="logo-txt">
+      <strong>OTB Creatives Group</strong><span>Outside The Box</span>
+    </div>
+  </div>
+
+  <div class="nav-links">
+    <button class="nav-a" data-nav="home" onclick="nav('home')">Home</button>
+    <button class="nav-a" data-nav="about" onclick="nav('about')">About</button>
+    <button class="nav-a" data-nav="services" onclick="nav('services')">
+      Services
+    </button>
+    <button class="nav-a" data-nav="hcp" onclick="nav('hcp')">
+      HCP Network
+    </button>
+    <button class="nav-a" data-nav="projects" onclick="nav('projects')">
+      Projects
+    </button>
+    <button class="nav-a" data-nav="why" onclick="nav('why')">Why OTB</button>
+    <button class="nav-a" data-nav="news" onclick="nav('news')">News</button>
+    <button class="nav-a" data-nav="contact" onclick="nav('contact')">
+      Contact
+    </button>
+  </div>
+
+  <div class="nav-right">
+    <button class="btn btn-pri btn-sm" onclick="nav('contact')">
+      Get started
+      <svg
+        width="15"
+        height="15"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M5 12h14M13 6l6 6-6 6" />
+      </svg>
+    </button>
+
+    <button
+      class="hamburger"
+      onclick="document.getElementById('mob').classList.add('open')"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
