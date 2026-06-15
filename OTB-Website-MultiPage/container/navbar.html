@@ -5,6 +5,7 @@
       <strong>OTB Creatives Group</strong><span>Outside The Box</span>
     </div>
   </div>
+
   <div class="nav-links">
     <button class="nav-a" data-nav="home" onclick="nav('home')">Home</button>
     <button class="nav-a" data-nav="about" onclick="nav('about')">About</button>
@@ -23,7 +24,13 @@
       Contact
     </button>
   </div>
+
   <div class="nav-right">
+    <!-- 🌐 LANG BUTTON -->
+    <div class="lang-switch">
+      <button id="langBtn" class="lang-btn" onclick="toggleLang()">EN</button>
+    </div>
+
     <button class="btn btn-pri btn-sm" onclick="nav('contact')">
       Get started
       <svg
@@ -39,6 +46,7 @@
         <path d="M5 12h14M13 6l6 6-6 6" />
       </svg>
     </button>
+
     <button
       class="hamburger"
       onclick="document.getElementById('mob').classList.add('open')"

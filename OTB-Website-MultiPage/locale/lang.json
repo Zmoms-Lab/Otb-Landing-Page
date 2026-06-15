@@ -1,0 +1,37 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "hcp": "HCP Network",
+      "projects": "Projects",
+      "why": "Why OTB",
+      "news": "News",
+      "contact": "Contact",
+      "cta": "Get started"
+    },
+    "logo": {
+      "title": "OTB Creatives Group",
+      "subtitle": "Outside The Box"
+    }
+  },
+
+  "vi": {
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "services": "Dịch vụ",
+      "hcp": "Mạng lưới HCP",
+      "projects": "Dự án",
+      "why": "Vì sao OTB",
+      "news": "Tin tức",
+      "contact": "Liên hệ",
+      "cta": "Bắt đầu"
+    },
+    "logo": {
+      "title": "OTB Creatives Group",
+      "subtitle": "Outside The Box"
+    }
+  }
+}

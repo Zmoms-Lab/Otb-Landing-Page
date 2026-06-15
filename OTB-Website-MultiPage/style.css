@@ -211,6 +211,7 @@
         justify-content: space-between;
         padding: 0 clamp(20px, 5vw, 56px);
         transition: all 0.4s var(--e);
+        overflow: hidden;
       }
       nav.scrolled {
         height: 62px;
@@ -262,6 +263,9 @@
       .nav-links {
         display: flex;
         gap: 4px;
+        flex: 1;
+        justify-content: center;
+        white-space: nowrap;
       }
       .nav-a {
         font-family: inherit;
@@ -2188,4 +2192,33 @@
         color: var(--muted);
         max-width: 44ch;
         margin: 0 auto 22px;
+      }
+
+      .lang-switch {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+      }
+
+      .lang-btn {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid var(--line);
+        color: var(--ink);
+
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: 0.2s ease;
+        letter-spacing: 0.5px;
+      }
+
+      .lang-btn:hover {
+        border-color: var(--pink);
+        color: var(--pink);
+        transform: translateY(-1px);
+      }
+
+      .lang-btn:active {
+        transform: scale(0.95);
       }
