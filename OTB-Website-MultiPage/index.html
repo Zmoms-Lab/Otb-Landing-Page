@@ -16,42 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   </head>
   <body>
     <div id="navbar"></div>
 
-    <script>
-      fetch("container/navbar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("navbar").innerHTML = data;
-        });
-    </script>
-
-    <div class="mob" id="mob">
-      <div class="mob-top">
-        <div class="logo">
-          <div class="logo-mark"><span>O</span></div>
-        </div>
-        <button
-          class="mob-x"
-          onclick="document.getElementById('mob').classList.remove('open')"
-        >
-          &times;
-        </button>
-      </div>
-      <a onclick="nav('home')">Home</a>
-      <a onclick="nav('about')">About</a>
-      <a onclick="nav('services')">Services</a>
-      <a onclick="nav('hcp')">HCP Network</a>
-      <a onclick="nav('projects')">Projects</a>
-      <a onclick="nav('why')">Why OTB</a>
-      <a onclick="nav('news')">News</a>
-      <a onclick="nav('contact')">Contact</a>
-    </div>
+    <div id="mobile-menu"></div>
 
     <main>
       <!-- HOME -->
@@ -707,36 +678,7 @@
       </div>
     </main>
 
-    <footer>
-      <div class="wrap">
-        <div class="foot-grid">
-          <div class="fbrand">
-            <strong>OTB Creatives Group</strong>Vietnam's specialist in
-            healthcare and mom-and-baby marketing on the hospital channel. We
-            place trusted brands where parents' trust begins.
-          </div>
-          <div>
-            <h5>Explore</h5>
-            <a onclick="nav('about')">About</a
-            ><a onclick="nav('services')">Services</a
-            ><a onclick="nav('hcp')">HCP Network</a
-            ><a onclick="nav('projects')">Projects</a
-            ><a onclick="nav('why')">Why OTB</a
-            ><a onclick="nav('news')">News</a>
-          </div>
-          <div>
-            <h5>Get in touch</h5>
-            <a href="tel:0947701010">0947 70 10 10</a
-            ><a href="mailto:nhansu@otbcreatives.com">nhansu@otbcreatives.com</a
-            ><a onclick="nav('contact')">Start a partnership</a>
-          </div>
-        </div>
-        <div class="foot-bot">
-          OTB Creatives Group © <span id="yr"></span> · Outside The Box · All
-          rights reserved.
-        </div>
-      </div>
-    </footer>
+    <div id="footer"></div>
 
     <div class="wipe" id="wipe" aria-hidden="true">
       <div class="wipe-mark">O</div>
@@ -931,5 +873,17 @@
         </div>
       </div>
     </div>
+    <script>
+      Promise.all([
+        fetch("container/navbar.html").then((r) => r.text()),
+        fetch("container/mobile.html").then((r) => r.text()),
+        fetch("container/footer.html").then((r) => r.text()),
+      ]).then(([navbar, mobile, footer]) => {
+        document.getElementById("navbar").innerHTML = navbar;
+        document.getElementById("mobile-menu").innerHTML = mobile;
+        document.getElementById("footer").innerHTML = footer;
+      });
+    </script>
+    <script src="script.js"></script>
   </body>
 </html>
