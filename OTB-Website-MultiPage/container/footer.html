@@ -1,29 +1,49 @@
 <footer>
   <div class="wrap">
     <div class="foot-grid">
+      <!-- BRAND -->
       <div class="fbrand">
-        <strong>OTB Creatives Group</strong>Vietnam's specialist in healthcare
-        and mom-and-baby marketing on the hospital channel. We place trusted
-        brands where parents' trust begins.
+        <strong data-footer="brandTitle">OTB Creatives Group</strong>
+        <span data-footer="brandDesc">
+          Vietnam's specialist in healthcare and mom-and-baby marketing on the
+          hospital channel. We place trusted brands where parents' trust begins.
+        </span>
       </div>
+
+      <!-- EXPLORE -->
       <div>
-        <h5>Explore</h5>
-        <a onclick="nav('about')">About</a
-        ><a onclick="nav('services')">Services</a
-        ><a onclick="nav('hcp')">HCP Network</a
-        ><a onclick="nav('projects')">Projects</a
-        ><a onclick="nav('why')">Why OTB</a><a onclick="nav('news')">News</a>
+        <h5 data-footer="explore">Explore</h5>
+
+        <a onclick="nav('about')" data-nav="about">About</a>
+        <a onclick="nav('services')" data-nav="services">Services</a>
+        <a onclick="nav('hcp')" data-nav="hcp">HCP Network</a>
+        <a onclick="nav('projects')" data-nav="projects">Projects</a>
+        <a onclick="nav('why')" data-nav="why">Why OTB</a>
+        <a onclick="nav('news')" data-nav="news">News</a>
       </div>
+
+      <!-- CONTACT -->
       <div>
-        <h5>Get in touch</h5>
-        <a href="tel:0947701010">0947 70 10 10</a
-        ><a href="mailto:nhansu@otbcreatives.com">nhansu@otbcreatives.com</a
-        ><a onclick="nav('contact')">Start a partnership</a>
+        <h5 data-footer="contactTitle">Get in touch</h5>
+
+        <a href="tel:0947701010">0947 70 10 10</a>
+
+        <a href="mailto:nhansu@otbcreatives.com"> nhansu@otbcreatives.com </a>
+
+        <a onclick="nav('contact')" data-footer="partner">
+          Start a partnership
+        </a>
       </div>
     </div>
+
     <div class="foot-bot">
-      OTB Creatives Group © <span id="yr"></span> · Outside The Box · All rights
-      reserved.
+      <span data-footer="copyright"> OTB Creatives Group © </span>
+
+      <span id="yr"></span>
+
+      <span data-footer="rights">
+        · Outside The Box · All rights reserved.
+      </span>
     </div>
   </div>
 </footer>

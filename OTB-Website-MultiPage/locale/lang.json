@@ -11,9 +11,46 @@
       "contact": "Contact",
       "cta": "Get started"
     },
+
     "logo": {
       "title": "OTB Creatives Group",
       "subtitle": "Outside The Box"
+    },
+
+    "hero": {
+      "tag": "Vietnam's mom & baby healthcare marketing leader",
+      "title": "We place your brand where a parent's trust begins.",
+      "desc": "OTB Creatives Group (Outside The Box) connects trusted brands with mothers, doctors and hospitals through real-world, high-trust experiences — from the first prenatal class to the day a newborn comes home.",
+      "cta": "Explore our services",
+      "talk": "Talk to us"
+    },
+
+    "metrics": {
+      "mothers": "Mothers reached / year",
+      "doctors": "Doctors at our seminars",
+      "events": "Events delivered",
+      "hospitals": "Partner hospitals",
+      "years": "Years of trust"
+    },
+
+    "footer": {
+      "brandTitle": "OTB Creatives Group",
+      "brandDesc": "Vietnam's specialist in healthcare and mom-and-baby marketing on the hospital channel. We place trusted brands where parents' trust begins.",
+      "explore": "Explore",
+      "contactTitle": "Get in touch",
+      "partner": "Start a partnership",
+      "copyright": "OTB Creatives Group ©",
+      "rights": "· Outside The Box · All rights reserved."
+    },
+
+    "services": {
+      "tag": "What we do",
+      "title": "An ecosystem built around the moments that matter",
+      "desc": "Four core programs that put your brand in mothers' hands and in front of the medical experts who guide every decision."
+    },
+    "partners": {
+      "tag": "Trusted by leading brands",
+      "title": "The names that grow with OTB"
     }
   },
 
@@ -29,9 +66,45 @@
       "contact": "Liên hệ",
       "cta": "Bắt đầu"
     },
+
     "logo": {
       "title": "OTB Creatives Group",
       "subtitle": "Outside The Box"
+    },
+
+    "hero": {
+      "tag": "Dẫn đầu marketing chăm sóc sức khỏe mẹ và bé tại Việt Nam",
+      "title": "Đưa thương hiệu của bạn đến nơi niềm tin của phụ huynh bắt đầu.",
+      "desc": "OTB Creatives Group (Outside The Box) kết nối các thương hiệu uy tín với mẹ bầu, bác sĩ và bệnh viện thông qua những trải nghiệm thực tế, đáng tin cậy — từ lớp học tiền sản đầu tiên đến ngày em bé chào đời.",
+      "cta": "Khám phá dịch vụ",
+      "talk": "Liên hệ ngay"
+    },
+
+    "metrics": {
+      "mothers": "Mẹ bầu tiếp cận / năm",
+      "doctors": "Bác sĩ tham gia hội thảo",
+      "events": "Sự kiện đã triển khai",
+      "hospitals": "Bệnh viện đối tác",
+      "years": "Năm xây dựng niềm tin"
+    },
+
+    "footer": {
+      "brandTitle": "OTB Creatives Group",
+      "brandDesc": "Chuyên gia marketing ngành chăm sóc sức khỏe mẹ và bé trên kênh bệnh viện tại Việt Nam. Chúng tôi đưa thương hiệu đến nơi niềm tin của phụ huynh bắt đầu.",
+      "explore": "Khám phá",
+      "contactTitle": "Liên hệ",
+      "partner": "Bắt đầu hợp tác",
+      "copyright": "OTB Creatives Group ©",
+      "rights": "· Outside The Box · Đã đăng ký bản quyền."
+    },
+    "services": {
+      "tag": "Chúng tôi làm gì",
+      "title": "Một hệ sinh thái được xây dựng xung quanh những khoảnh khắc quan trọng",
+      "desc": "Bốn chương trình cốt lõi đưa thương hiệu của bạn đến tay các mẹ bầu và trước mắt các chuyên gia y tế hướng dẫn mọi quyết định."
+    },
+    "partners": {
+      "tag": "Được tin tưởng bởi các thương hiệu hàng đầu",
+      "title": "Những thương hiệu đồng hành và phát triển cùng OTB"
     }
   }
 }
