@@ -1,3 +1,0 @@
-<?php
-// Rename to config.php and paste your key (from https://console.anthropic.com).
-define('ANTHROPIC_API_KEY', 'sk-ant-REPLACE_ME');
