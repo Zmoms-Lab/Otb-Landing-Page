@@ -1078,6 +1078,40 @@ var PROJECTS_BIG = [
 ]*/
   {
     cat: "workshop",
+    brand: "Elevit",
+    title: "Cộng Đồng Bầu x Elevit: Lớp Học Làm Cha Mẹ",
+    title_en: "Cộng Đồng Bầu x Elevit: Parenting Class",
+    project: "Lớp Học Làm Cha Mẹ",
+    project_en: "Parenting Class",
+    partner: "Cộng Đồng Bầu",
+    desc: "Lớp học làm cha mẹ.",
+    desc_en: "Parenting class.",
+    detail:
+      "Elevit là thương hiệu viên uống bổ sung vitamin và khoáng chất dành cho phụ nữ mang thai và cho con bú, thuộc tập đoàn Bayer (Đức) — một trong những tập đoàn dược phẩm hàng đầu thế giới. Sản phẩm giúp bổ sung đầy đủ các dưỡng chất cần thiết cho sức khỏe của mẹ và sự phát triển toàn diện của thai nhi trong suốt thai kỳ và giai đoạn sau sinh. Elevit Pronatal là dòng sản phẩm phổ biến nhất trên thị trường Việt Nam.",
+    detail_en:
+      "Elevit is a vitamin and mineral supplement brand for pregnant and breastfeeding women from Bayer (Germany), one of the world’s leading pharmaceutical groups. The product provides essential nutrients for maternal health and the baby’s comprehensive development throughout pregnancy and the postpartum period. Elevit Pronatal is its most popular product line in Vietnam.",
+    detail_sections: [
+      {
+        title: "Elevit giúp:",
+        title_en: "Elevit helps:",
+        items: [
+          "Bổ sung đầy đủ 12 loại vitamin và 8 loại khoáng chất quan trọng.",
+          "Hỗ trợ sự phát triển não bộ, tim mạch, xương và hệ miễn dịch của bé.",
+          "Tăng cường sức khỏe cho mẹ, giảm mệt mỏi khi mang thai và sau sinh.",
+        ],
+        items_en: [
+          "Provide 12 essential vitamins and 8 important minerals.",
+          "Support the baby’s brain, cardiovascular system, bones and immune development.",
+          "Strengthen maternal health and reduce fatigue during pregnancy and after birth.",
+        ],
+      },
+    ],
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Representative project images:",
+    gallery: [],
+  },
+  {
+    cat: "workshop",
     brand: "Lactacyd",
     title: "OTB x Lactacyd: Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
     title_en: "OTB x Lactacyd: Antenatal Seminar for Expectant Mothers",
@@ -1217,35 +1251,268 @@ var PROJECTS_BIG = [
         ],
       },
     ],
-    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
-    gallery_title_en: "Some highlight images from the seminar:",
-    gallery_title: "1.Khu vực cổng chào",
-    gallery_title_en: "1.Welcome gate area",
-    gallery: [
-      "images/duan14_2.png",
-      "images/duan14_3.png",
-      "images/duan14_4.png",
+    cover: "images/duan14_1.png",
+    gallery_sections: [
+      {
+        title: "1. Khu vực cổng chào",
+        title_en: "1. Welcome gate area",
+        images: [
+          "images/duan14_2.png",
+          "images/duan14_3.png",
+          "images/duan14_4.png",
+        ],
+      },
+      {
+        title: "2. Khai mạc và khách mời",
+        title_en: "2. Opening Ceremony and Guests",
+        images: [
+          "images/duan14_5.png",
+          "images/duan14_6.png",
+          "images/duan14_7.png",
+        ],
+      },
+      {
+        title: "3. Các hoạt động trong ngày hội",
+        title_en: "3. Activities during the festival",
+        images: [
+          "images/duan14_8.png",
+          "images/duan14_9.png",
+          "images/duan14_10.png",
+          "images/duan14_11.png",
+          "images/duan14_12.png",
+          "images/duan14_13.png",
+        ]
+      },
+      {
+        title:"4. Tư vấn chăm sóc sức khỏe cùng chuyên gia",
+        title_en:"4. Health care consultation with experts",
+        images: [
+        "images/duan14_14.png",
+          "images/duan14_15.png",
+          "images/duan14_16.png"
+        ]
+      },
+      {
+        title:"5. Thăm khám và massage",
+        title_en:"5. Examination and massage",
+        images: [
+          "images/duan14_17.png",
+          "images/duan14_18.png",
+          "images/duan14_19.png",
+        ]
+      },
+      {
+        title:" 6. Báo chí đưa tin về ngày hội",
+        title_en:"6. The press reported on the festival.",
+        images: [
+          "images/duan14_20,png",
+          "images/duan14_21.png",
+          "images/duan14_22.png"
+        ]
+      }
     ],
-    gallery_title: "2. Khai mạc và khách mời",
-    gallery_title_en: "2. Opening Ceremony and Guests",
-    gallery: [
-      "images/duan14_5.png",
-      "images/duan14_6.png",
-      "images/duan14_7.png",
-    ],
-    gallery_show_captions: false,
   },
   {
     cat: "workshop",
     brand: "BV Hạnh Phúc",
+    title: "OTB x Bệnh Viện Hạnh Phúc: Hội Thảo Phương Pháp Giảm Đau Khi Sinh",
+    title_en:
+      "OTB x Hanh Phuc International Hospital: Pain Relief Methods for Childbirth Workshop",
+    project: "Hội Thảo Phương Pháp Giảm Đau Khi Sinh",
+    project_en: "Pain Relief Methods for Childbirth Workshop",
+    partner: "Bệnh Viện Hạnh Phúc",
+    partner_en: "Hanh Phuc International Hospital",
+    topic: "Phương pháp giảm đau khi sinh",
+    topic_en: "Pain relief methods for childbirth",
     desc: "Hội thảo phương pháp giảm đau khi sinh.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-hanh-phuc-hoi-thao-phuong-phap-giam-dau-khi-sinh",
+    desc_en: "Pain relief methods for childbirth workshop.",
+    detail:
+      "Giúp các mẹ bầu và gia đình hiểu rõ về những phương pháp giảm đau khi sinh hiệu quả, an toàn, giúp mẹ yên tâm hơn khi vượt cạn.",
+    detail_en:
+      "To help expectant mothers and their families understand effective and safe pain relief methods during childbirth, providing them with peace of mind and confidence for delivery.",
+    objectives_title: "Mục tiêu:",
+    objectives_title_en: "Objectives:",
+    objectives: [
+      "Cung cấp thông tin và hướng dẫn các phương pháp giảm đau khi sinh hiệu quả, tiên tiến nhất hiện nay.",
+      "Giúp mẹ sinh con nhẹ nhàng, an toàn, đảm bảo sức khỏe cho cả mẹ và bé.",
+      "Giải đáp thắc mắc của các cặp vợ chồng sắp sinh qua chia sẻ của các bác sĩ chuyên môn tại Bệnh viện Hạnh Phúc.",
+    ],
+    objectives_en: [
+      "Provide information and guidance on the most effective and advanced pain relief methods available today.",
+      "Support mothers in experiencing a more comfortable and safer delivery while ensuring the health of both mother and baby.",
+      "Address concerns from soon-to-be parents through expert insights shared by doctors from Hanh Phuc International Hospital.",
+    ],
+    detail_sections: [
+      {
+        title: "Đối tượng tham gia:",
+        title_en: "Target Audience:",
+        items: [
+          "Các mẹ bầu và gia đình có nhu cầu tìm hiểu kỹ về các phương pháp giảm đau khi sinh.",
+          "Các cặp vợ chồng sắp sinh có nhu cầu chuẩn bị tâm lý và sức khỏe cho cuộc sinh nở.",
+        ],
+        items_en: [
+          "Expectant mothers and families seeking in-depth knowledge about pain relief methods for childbirth.",
+          "Soon-to-be parents preparing mentally and physically for labor and delivery.",
+        ],
+      },
+    ],
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the workshop:",
+    cover: "images/duan15_1.png",
+    gallery_sections: [
+      {
+        title: "Khách mời tham dự",
+        title_en: "Guests attendedS",
+        images: [
+          "images/duan15_2.png",
+          "images/duan15_3.png",
+          "images/duan15_4.png",
+        ],
+      },
+      {
+        title: "Các hoạt động xuyên suốt:",
+        title_en: "Throughout activities",
+        images: [
+          "images/duan15_5.png",
+          "images/duan15_6.png",
+          "images/duan15_7.png",
+          "images/duan15_8.png",
+          "images/duan15_9.png",
+          "images/duan15_10.png",
+        ],
+      },
+      {
+        title: "Báo đưa tin",
+        title_en:"The press reported",
+        images: [
+          "images/duan15_10.png"
+        ]
+      },
+      {
+        title: "3. Các hoạt động trong ngày hội",
+        title_en: "3. Activities during the festival",
+        images: [
+          "images/duan14_8.png",
+          "images/duan14_9.png",
+          "images/duan14_10.png",
+          "images/duan14_11.png",
+          "images/duan14_12.png",
+          "images/duan14_13.png",
+        ]
+      },
+      {
+        title:"4. Tư vấn chăm sóc sức khỏe cùng chuyên gia",
+        title_en:"4. Health care consultation with experts",
+        images: [
+        "images/duan14_14.png",
+          "images/duan14_15.png",
+          "images/duan14_16.png"
+        ]
+      },
+      {
+        title:"5. Thăm khám và massage",
+        title_en:"5. Examination and massage",
+        images: [
+          "images/duan14_17.png",
+          "images/duan14_18.png",
+          "images/duan14_19.png",
+        ]
+      },
+      {
+        title:" 6. Báo chí đưa tin về ngày hội",
+        title_en:"6. The press reported on the festival.",
+        images: [
+          "images/duan14_20.spng",
+          "images/duan14_21.png",
+        ]
+      }
+    ],
   },
   {
     cat: "workshop",
     brand: "BV Hạnh Phúc",
+    title: "OTB x Bệnh Viện Hạnh Phúc: Hội Thảo Nhi Khoa",
+    title_en: "OTB x Hanh Phuc International Hospital: Pediatric Workshop",
+    project: "Hội Thảo Nhi Khoa",
+    project_en: "Pediatric Workshop",
+    partner: "Bệnh Viện Hạnh Phúc",
+    partner_en: "Hanh Phuc International Hospital",
+    topic: "Các vấn đề thường gặp ở trẻ sơ sinh và cách xử trí",
+    topic_en: "Common Health Issues in Newborns and How to Manage Them",
     desc: "Hội thảo nhi khoa.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-hanh-phuc-hoi-thao-nhi-khoa",
+    desc_en: "Pediatric workshop.",
+    detail_sections: [
+      {
+        title: "Đối tượng tham gia:",
+        title_en: "Target Audience:",
+        items: ["Các bậc cha mẹ có bé sơ sinh."],
+        items_en: ["Parents of newborn babies."],
+      },
+      {
+        title: "Nội dung chính:",
+        title_en: "Main Content:",
+        items: [
+          "Bệnh viện Quốc tế Hạnh Phúc mời các bác sĩ chuyên gia chia sẻ trực tiếp với phụ huynh.",
+          "Hướng dẫn phương pháp chăm sóc và xử lý hiệu quả các vấn đề sức khỏe thường gặp ở trẻ sơ sinh.",
+        ],
+        items_en: [
+          "Hanh Phuc International Hospital invited expert pediatricians to share their knowledge directly with parents.",
+          "Provide guidance on proper care and effective solutions for common health issues in newborns.",
+        ],
+      },
+    ],
+    cover:"images/duan16_1.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the workshop:",
+   gallery_sections: [
+      {
+        title: "Khách mời tham dự",
+        title_en: "Guests attendedS",
+        images: [
+          "images/duan16_2.png",
+          "images/duan16_3.png",
+          "images/duan16_4.png",
+        ],
+      },
+      {
+        title: "Các hoạt động xuyên suốt:",
+        title_en: "Throughout activities",
+        images: [
+          "images/duan16_5.png",
+          "images/duan16_6.png",
+          "images/duan16_7.png",
+          "images/duan16_8.png",
+          "images/duan16_9.png",
+          "images/duan16_10.png",
+        ],
+      },
+      {
+        title: "Báo đưa tin",
+        title_en:"The press reported",
+        images: [
+          "images/duan15_10.png"
+        ]
+      },
+      {
+        title: "3. Các hoạt động trong ngày hội",
+        title_en: "3. Activities during the festival",
+        images: [
+          "images/duan14_8.png",
+          "images/duan14_9.png",
+          "images/duan14_10.png",
+          "images/duan14_11.png",
+          "images/duan14_12.png",
+          "images/duan14_13.png",
+        ]
+      },
+      {
+        title:" Báo chí đưa tin về ngày hội",
+        title_en:"The press reported on the festival.",
+        images: [
+          "images/duan16_11,png",
+        ]
+      }
+    ],
   },
   {
     cat: "workshop",
@@ -1692,11 +1959,7 @@ function catLabel(c) {
   return c;
 }
 function workCard(w, idx) {
-function workCard(w, idx) {
   return (
-    '<button class="work-card" type="button" onclick="openProjectDetail(' +
-    idx +
-    ')"><div class="wc">' +
     '<button class="work-card" type="button" onclick="openProjectDetail(' +
     idx +
     ')"><div class="wc">' +
@@ -1889,6 +2152,38 @@ function openProjectDetail(idx) {
             .join("") +
           "</div>"
         : "";
+    var gallerySections = Array.isArray(w.gallery_sections)
+      ? w.gallery_sections
+          .map(function (section, sectionIndex) {
+            var images = Array.isArray(section.images) ? section.images : [];
+            if (!images.length) return "";
+            return (
+              '<h3 class="pd-section-title">' +
+              bi(section.title || "", section.title_en || section.title || "") +
+              '</h3><div class="pd-gallery">' +
+              images
+                .map(function (src, imageIndex) {
+                  return (
+                    '<figure class="pd-gallery-item"><img src="' +
+                    esc(src) +
+                    '" alt="' +
+                    esc(
+                      w.brand +
+                        " " +
+                        (sectionIndex + 1) +
+                        "." +
+                        (imageIndex + 1),
+                    ) +
+                    '"></figure>'
+                  );
+                })
+                .join("") +
+              "</div>"
+            );
+          })
+          .join("")
+      : "";
+    var galleryContent = gallerySections || galleryTitle + gallery;
     body.innerHTML =
       '<div class="pd-panel"><div class="pd-content"><div class="pd-label">' +
       esc(cat) +
@@ -1906,8 +2201,7 @@ function openProjectDetail(idx) {
       detailSections +
       detailOutro +
       results +
-      galleryTitle +
-      gallery +
+      galleryContent +
       '</div><div class="pd-actions"><button class="btn btn-pri" type="button" onclick="nav(\'contact\')">' +
       bi("Tư vấn chiến dịch tương tự", "Consult on a similar campaign") +
       '</button><button class="btn btn-out" type="button" onclick="nav(\'projects\')">' +
@@ -1925,11 +2219,6 @@ function renderWork(cat) {
           return w.cat === cat;
         })
       : PROJECTS_BIG;
-  g.innerHTML = list
-    .map(function (w) {
-      return workCard(w, PROJECTS_BIG.indexOf(w));
-    })
-    .join("");
   g.innerHTML = list
     .map(function (w) {
       return workCard(w, PROJECTS_BIG.indexOf(w));
@@ -2105,15 +2394,12 @@ function _swapPage(page) {
   for (var i = 0; i < pages.length; i++) pages[i].classList.remove("active");
   target.classList.add("active");
   var navPage = page === "project-detail" ? "projects" : page;
-  var navPage = page === "project-detail" ? "projects" : page;
   var links = document.querySelectorAll(".nav-a");
   for (var k = 0; k < links.length; k++)
     links[k].classList.toggle(
       "active",
       links[k].getAttribute("data-nav") === navPage,
-      links[k].getAttribute("data-nav") === navPage,
     );
-  document.body.setAttribute("data-theme", target.getAttribute("data-theme") || page);
   document.body.setAttribute("data-theme", target.getAttribute("data-theme") || page);
   window.scrollTo({ top: 0, behavior: "auto" });
   revealIn(target);
@@ -3433,6 +3719,7 @@ function init() {
     });
     window.addEventListener("resize", pvSize);
     onScroll();
+    revealIn(el("page-home"));
   } catch (err) {
     console.error("init", err);
   }
@@ -3440,4 +3727,3 @@ function init() {
 if (document.readyState === "loading")
   document.addEventListener("DOMContentLoaded", init);
 else init();
-}
