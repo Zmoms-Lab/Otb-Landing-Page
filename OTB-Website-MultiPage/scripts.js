@@ -312,8 +312,7 @@ var JOURNEY = [
 var PROJECTS_BIG = [
   {
     cat: "sampling",
-    brand: "Huggiesx",
-    brand: "Huggiesx",
+    brand: "Huggies",
     desc: "Gửi trao yêu thương đến hơn 500.000 mẹ bầu mỗi năm.",
     detail:
       "Từ năm 2013 đến nay, OTB phối hợp cùng Huggies triển khai chương trình tặng tã giấy miễn phí cho hơn 500.000 mẹ bầu mỗi năm tại hơn 40 bệnh viện sản - nhi trên toàn quốc. Dự án vừa hỗ trợ thiết thực cho mẹ trong giai đoạn đầu chăm sóc bé, vừa góp phần nâng cao nhận thức về chăm sóc trẻ sơ sinh.",
@@ -774,7 +773,7 @@ var PROJECTS_BIG = [
       "images/duan7_3.png",
       "images/duan7_4.png",
       "images/duan7_5.png",
-      "images/duan6_6.png",
+      "images/duan7_6.png",
     ],
     desc_en: "Product & gift sponsorship.",
     detail:
@@ -811,7 +810,7 @@ var PROJECTS_BIG = [
       "images/duan7_3.png",
       "images/duan7_4.png",
       "images/duan7_5.png",
-      "images/duan6_6.png",
+      "images/duan7_6.png",
     ],
   },
   {
@@ -1050,7 +1049,7 @@ var PROJECTS_BIG = [
     gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
     gallery_title_en: "Representative project images:",
     gallery: [],
-  },*/
+  },
     desc_en: "Parenting class.",
     detail:
       "Elevit là thương hiệu viên uống bổ sung vitamin và khoáng chất dành cho phụ nữ mang thai và cho con bú, thuộc tập đoàn Bayer (Đức) — một trong những tập đoàn dược phẩm hàng đầu thế giới. Sản phẩm giúp bổ sung đầy đủ các dưỡng chất cần thiết cho sức khỏe của mẹ và sự phát triển toàn diện của thai nhi trong suốt thai kỳ và giai đoạn sau sinh. Elevit Pronatal là dòng sản phẩm phổ biến nhất trên thị trường Việt Nam.",
@@ -1075,7 +1074,8 @@ var PROJECTS_BIG = [
     gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
     gallery_title_en: "Representative project images:",
     gallery: [],
-  },*/
+  },
+]*/
   {
     cat: "workshop",
     brand: "Lactacyd",
@@ -1493,8 +1493,7 @@ var NETWORK = [
   "BV Nhi Đồng 2",
   "BV ĐHYD Shingmark",
   "BV Phụ Sản Âu Cơ",
-  "BV Phụ Sản Quốc Thoế",
-  "BV Phụ Sản Quốc Thoế",
+  "BV Phụ Sản Quốc Tế",
   "BV Quốc Tế Green Hải Phòng",
   "BV Phụ Sản Tâm Phúc Hải Phòng",
   "BV Phụ Sản Hải Dương",
@@ -3408,6 +3407,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* ---------- INIT ---------- */
 function init() {
+  nav("home", true);
   try {
     renderProducts();
     renderServices();
@@ -3433,7 +3433,6 @@ function init() {
     });
     window.addEventListener("resize", pvSize);
     onScroll();
-    nav("home", true);
   } catch (err) {
     console.error("init", err);
   }
@@ -3441,3 +3440,4 @@ function init() {
 if (document.readyState === "loading")
   document.addEventListener("DOMContentLoaded", init);
 else init();
+}
