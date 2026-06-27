@@ -744,30 +744,129 @@ var PROJECTS_BIG = [
       "Introduce Lactacyd Baby products, helping mothers confidently care for their baby’s delicate skin.",
       "Spread essential knowledge and practical newborn-care skills from hospitals to families across the country.",
     ],
-    cover:"images/duan11_1",
+    cover: "images/duan11_1.png",
     gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
     gallery_title_en: "Some highlight images from the seminar:",
     gallery: [
-      "images/duan11_2",
-      "images/duan11_3",
-      "images/duan11_4",
-      "images/duan11_5",
-      "images/duan11_6",
-      "images/duan11_7",
-      "images/duan11_8"
+      "images/duan11_2.png",
+      "images/duan11_3.png",
+      "images/duan11_4.png",
+      "images/duan11_5.png",
+      "images/duan11_6.png",
+      "images/duan11_7.png",
+      "images/duan11_8.png",
     ],
   },
   {
     cat: "workshop",
     brand: "BV Hoàn Mỹ Sài Gòn",
+    title:
+      'OTB x Bệnh Viện Hoàn Mỹ Sài Gòn: Hội Thảo "Sanh An Toàn – Những Điều Cần Biết"',
+    title_en:
+      "OTB x Hoan My Saigon Hospital: Seminar “Safe Delivery – What You Need to Know”",
+    project: 'Hội Thảo "Sanh An Toàn – Những Điều Cần Biết"',
+    project_en: "Seminar “Safe Delivery – What You Need to Know”",
+    partner: "Bệnh viện Hoàn Mỹ Sài Gòn",
+    partner_en: "Hoan My Saigon Hospital",
     desc: "Hội thảo 'Sanh An Toàn – Những Điều Cần Biết'.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-hoan-my-sai-gon-hoi-thao-sanh-an-toan-nhung-dieu-can-biet",
+    desc_en: "Seminar “Safe Delivery – What You Need to Know”.",
+    detail:
+      "Bệnh viện Hoàn Mỹ Sài Gòn là một bệnh viện đa khoa tư nhân lớn và uy tín tại TP. Hồ Chí Minh, trực thuộc Tập đoàn Y khoa Hoàn Mỹ — tập đoàn y tế tư nhân hàng đầu Việt Nam. Đây là cơ sở y tế tư nhân đầu tiên tại Việt Nam được công nhận đạt chuẩn chất lượng JCI (Joint Commission International) — một trong những tiêu chuẩn an toàn y tế khắt khe nhất thế giới.",
+    detail_en:
+      "Hoan My Saigon Hospital is one of the largest and most reputable private general hospitals in Ho Chi Minh City. It operates under Hoan My Medical Corporation — the leading private healthcare group in Vietnam. It is also the first private healthcare facility in Vietnam to be accredited with JCI (Joint Commission International) standards — one of the most stringent global benchmarks for patient safety and healthcare quality.",
+    cover: "images/duan12.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    gallery: [
+      "images/unan12_2.png",
+      "images/duan12_3.png",
+      "images/duan12_4.png",
+      "images/duan12_5.png",
+    ],
   },
+
   {
     cat: "workshop",
     brand: "BV Phụ Sản Trung Ương",
+    title: "OTB x Bệnh Viện Phụ Sản Trung Ương: Ngày Hội Dành Cho Mẹ Và Bé",
+    title_en:
+      "OTB x National Hospital of Obstetrics and Gynecology: Festival for Mothers and Babies",
+    project: "Ngày Hội Dành Cho Mẹ Và Bé",
+    project_en: "Festival for Mothers and Babies",
+    partner: "Bệnh Viện Phụ Sản Trung Ương",
+    partner_en: "National Hospital of Obstetrics and Gynecology",
+    sponsor: "Huggies",
     desc: "Ngày hội dành cho mẹ và bé.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-phu-san-trung-uong-ngay-hoi-danh-cho-me-va-be",
+    desc_en: "Festival for mothers and babies.",
+    objectives_title: "Mục tiêu:",
+    objectives_title_en: "Objectives:",
+    objectives: [
+      "Hỗ trợ các cặp vợ chồng, đặc biệt là các mẹ bầu và gia đình lần đầu làm cha mẹ, có thêm kiến thức và kinh nghiệm về chăm sóc sức khỏe thai kỳ và nuôi con khỏe mạnh.",
+    ],
+    objectives_en: [
+      "Support couples — especially expectant mothers and first-time parents — by providing knowledge and practical experience on pregnancy care and raising healthy children.",
+    ],
+    detail_sections: [
+      {
+        title: "Hoạt động chính:",
+        title_en: "Main Activities:",
+        items: [
+          "Tư vấn trực tiếp từ các bác sĩ đầu ngành của Bệnh viện Phụ Sản Trung Ương về chăm sóc sức khỏe thai kỳ và nuôi dưỡng em bé sau khi chào đời.",
+          "Cung cấp kiến thức về dinh dưỡng thai kỳ.",
+          "Cung cấp kiến thức về chăm sóc sau sinh.",
+          "Hướng dẫn phòng tránh bệnh cho mẹ và bé.",
+          "Trang bị kỹ năng chăm sóc trẻ sơ sinh.",
+          "Giải đáp thắc mắc của các mẹ bầu và các cặp vợ chồng trẻ.",
+        ],
+        items_en: [
+          "Direct consultation with leading doctors from the National Hospital of Obstetrics and Gynecology on pregnancy and newborn care.",
+          "Guidance on nutrition during pregnancy.",
+          "Knowledge about postpartum care.",
+          "Disease prevention for both mother and baby.",
+          "Practical newborn-care skills.",
+          "A Q&A session for expectant mothers and young couples.",
+        ],
+      },
+      {
+        title: "Hoạt động mua sắm:",
+        title_en: "Shopping Activities:",
+        items: [
+          "Các mẹ được mua sản phẩm dành cho mẹ và bé với giá ưu đãi tại sự kiện.",
+          "Các sản phẩm tiêu biểu đến từ Huggies, Anmum, Green Cross, Opti và nhiều thương hiệu uy tín khác.",
+        ],
+        items_en: [
+          "Mothers had the opportunity to purchase mother-and-baby products at special discounted prices during the event.",
+          "Featured products came from Huggies, Anmum, Green Cross, Opti and other reputable brands.",
+        ],
+      },
+      {
+        title: "Đặc biệt:",
+        title_en: "Special highlight:",
+        items: [
+          "Khi tham dự chương trình, các mẹ có cơ hội nhận những phần quà hấp dẫn từ các nhà tài trợ.",
+        ],
+        items_en: [
+          "Participants had the opportunity to receive attractive gifts from the program’s sponsors.",
+        ],
+      },
+    ],
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    gallery_title: "1.Khu vực cổng chào",
+    gallery_title_en: "1.Welcome gate area",
+    gallery: [
+      "images/duan14_2.png",
+      "images/duan14_3.png",
+      "images/duan14_4.png",
+    ],
+    gallery_title: "2. Khai mạc và khách mời",
+    gallery_title_en: "2. Opening Ceremony and Guests",
+    gallery: [
+      "images/duan14_5.png",
+      "images/duan14_6.png",
+      "images/duan14_7.png",
+    ],
+    gallery_show_captions: false,
   },
   {
     cat: "workshop",
@@ -783,9 +882,50 @@ var PROJECTS_BIG = [
   },
   {
     cat: "workshop",
-    brand: "HIPP",
+    brand: "HiPP",
+    title: "OTB x HiPP: Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    title_en: "OTB x HiPP: Prenatal Workshop for Expecting Mothers",
+    project: "Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    project_en: "Prenatal Workshop for Expecting Mothers",
+    partner: "HiPP",
+    scale: "Hơn 100 mẹ bầu",
+    scale_en: "Over 100 expecting mothers participated",
     desc: "Hội thảo tiền sản dành cho mẹ bầu.",
-    url: "https://www.otbcreatives.com/otb-x-hipp-hoi-thao-tien-san-danh-cho-me-bau",
+    desc_en: "Prenatal workshop for expecting mothers.",
+    detail:
+      "HiPP là một thương hiệu nổi tiếng của Đức, chuyên sản xuất các sản phẩm dinh dưỡng và chăm sóc dành cho trẻ sơ sinh và trẻ nhỏ. Với bề dày lịch sử hơn 125 năm, HiPP nổi tiếng toàn cầu với các sản phẩm hữu cơ đạt tiêu chuẩn cao.",
+    detail_en:
+      "HiPP is a well-known German brand specializing in nutrition and care products for infants and young children. With a history of over 125 years, HiPP is globally recognized for its high-quality organic products.",
+    detail_sections: [
+      {
+        title: "Danh mục sản phẩm chính của HiPP bao gồm:",
+        title_en: "HiPP’s main product categories include:",
+        items: [
+          "Sữa công thức HiPP.",
+          "Thực phẩm ăn dặm HiPP (bột ăn dặm, cháo, mì, bánh ăn dặm…).",
+          "Nước ép và đồ uống dinh dưỡng cho bé.",
+          "Sản phẩm chăm sóc da, vệ sinh cho bé (sữa tắm, kem chống hăm…).",
+        ],
+        items_en: [
+          "HiPP Infant Formula.",
+          "HiPP Complementary Foods (baby cereals, porridge, noodles, teething biscuits, etc.).",
+          "Juices and nutritional drinks for babies.",
+          "Baby skincare and hygiene products (baby bath, diaper rash cream, etc.).",
+        ],
+      },
+    ],
+    detail_outro:
+      "Điểm nổi bật: HiPP cam kết về chất lượng hữu cơ tuyệt đối, an toàn cho sức khỏe của trẻ nhỏ.",
+    detail_outro_en:
+      "Key highlight: HiPP stands out for its absolute commitment to organic quality and safety, helping protect the well-being of young children.",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    cover:"images/duan13_1.png",
+    gallery: [
+      "images/duan13_2.png",
+      "images/duan13_3.png",
+      "images/duan13_4.png"
+    ],
   },
   {
     cat: "workshop",
@@ -1227,6 +1367,13 @@ function openProjectDetail(idx) {
       metaItems.push(
         bi("Đối tác: " + w.partner, "Partner: " + (w.partner_en || w.partner)),
       );
+    if (w.sponsor)
+      metaItems.push(
+        bi(
+          "Đơn vị tài trợ: " + w.sponsor,
+          "Sponsor: " + (w.sponsor_en || w.sponsor),
+        ),
+      );
     if (w.duration)
       metaItems.push(
         bi(
@@ -1348,12 +1495,24 @@ function openProjectDetail(idx) {
         ? '<div class="pd-gallery">' +
           w.gallery
             .map(function (src, gi) {
+              var captionVi =
+                (w.gallery_captions || [])[gi] ||
+                "Hình ảnh dự án " + (gi + 1);
+              var captionEn =
+                (w.gallery_captions_en || [])[gi] ||
+                "Project image " + (gi + 1);
+              var caption =
+                w.gallery_show_captions === false
+                  ? ""
+                  : "<figcaption>" + bi(captionVi, captionEn) + "</figcaption>";
               return (
-                '<img src="' +
+                '<figure class="pd-gallery-item"><img src="' +
                 esc(src) +
                 '" alt="' +
                 esc(w.brand + " " + (gi + 2)) +
-                '">'
+                '">' +
+                caption +
+                "</figure>"
               );
             })
             .join("") +
