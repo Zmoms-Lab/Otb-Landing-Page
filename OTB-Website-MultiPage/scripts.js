@@ -3407,7 +3407,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* ---------- INIT ---------- */
 function init() {
-  nav("home", true);
+  try {
+    nav("home", true);
+  } catch (err) {
+    console.error("nav init", err);
+  }
   try {
     renderProducts();
     renderServices();
