@@ -313,7 +313,22 @@ var PROJECTS_BIG = [
   {
     cat: "sampling",
     brand: "Huggiesx",
+    brand: "Huggiesx",
     desc: "Gửi trao yêu thương đến hơn 500.000 mẹ bầu mỗi năm.",
+    detail:
+      "Từ năm 2013 đến nay, OTB phối hợp cùng Huggies triển khai chương trình tặng tã giấy miễn phí cho hơn 500.000 mẹ bầu mỗi năm tại hơn 40 bệnh viện sản - nhi trên toàn quốc. Dự án vừa hỗ trợ thiết thực cho mẹ trong giai đoạn đầu chăm sóc bé, vừa góp phần nâng cao nhận thức về chăm sóc trẻ sơ sinh.",
+    objectives: [
+      "Hỗ trợ mẹ bầu, giảm bớt gánh nặng chi phí trong giai đoạn đầu chăm sóc bé.",
+      "Cung cấp thông tin và kiến thức về chăm sóc trẻ sơ sinh.",
+      "Đồng hành cùng mẹ, tạo dựng niềm tin và sự an tâm trong hành trình làm mẹ.",
+    ],
+    cover: "images/duaan1_1.png",
+    gallery: [
+      "images/duan1_2.png",
+      "images/duan1_3.png",
+      "images/duan1_4.png",
+      "images/duan1_5.png",
+    ],
     detail:
       "Từ năm 2013 đến nay, OTB phối hợp cùng Huggies triển khai chương trình tặng tã giấy miễn phí cho hơn 500.000 mẹ bầu mỗi năm tại hơn 40 bệnh viện sản - nhi trên toàn quốc. Dự án vừa hỗ trợ thiết thực cho mẹ trong giai đoạn đầu chăm sóc bé, vừa góp phần nâng cao nhận thức về chăm sóc trẻ sơ sinh.",
     objectives: [
@@ -337,7 +352,34 @@ var PROJECTS_BIG = [
     project: "Trao Tặng 100.000 Ly Sữa Miễn Phí",
     project_en: "Giving Away 100,000 Free Glasses of Milk",
     partner: "Anlene",
+    title: "OTB x Anlene: Trao Tặng 100.000 Ly Sữa Miễn Phí",
+    title_en: "OTB x Anlene: Giving Away 100,000 Free Glasses of Milk",
+    project: "Trao Tặng 100.000 Ly Sữa Miễn Phí",
+    project_en: "Giving Away 100,000 Free Glasses of Milk",
+    partner: "Anlene",
     desc: "Trao tặng 100.000 ly sữa miễn phí.",
+    desc_en: "Giving away 100,000 free glasses of milk.",
+    detail:
+      "Sữa Anlene là một thương hiệu sữa chuyên biệt dành cho xương khớp đến từ tập đoàn Fonterra (New Zealand). Đây là sản phẩm sữa được nghiên cứu và phát triển chuyên biệt dành cho người trưởng thành từ 19 tuổi trở lên, đặc biệt là người trung niên, cao tuổi, phụ nữ sau sinh, người có nguy cơ loãng xương. Anlene cung cấp nguồn canxi, vitamin D, collagen, protein và các dưỡng chất thiết yếu giúp duy trì hệ xương khớp khỏe mạnh.",
+    detail_en:
+      "Anlene is a specialized milk brand for bone and joint health from Fonterra Group (New Zealand). This milk product is specially designed for adults aged 19 and above, especially middle-aged individuals, the elderly, postpartum women, and those at risk of osteoporosis. Anlene provides a rich source of calcium, vitamin D, collagen, protein, and essential nutrients that help maintain healthy bones and joints.",
+    objectives: [
+      "Ngăn ngừa loãng xương.",
+      "Giảm nguy cơ đau nhức xương khớp.",
+      "Duy trì vận động linh hoạt khi có tuổi.",
+    ],
+    objectives_en: [
+      "Prevent osteoporosis.",
+      "Reduce the risk of bone and joint pain.",
+      "Maintain flexibility and mobility with age.",
+    ],
+  cover: "images/duan2_1.png",
+    gallery: [
+      "images/duan2_2.png",
+      "images/duan2_3.png",
+      "images/duan2_5.png",
+      "images/duan2_6.png"
+    ],
     desc_en: "Giving away 100,000 free glasses of milk.",
     detail:
       "Sữa Anlene là một thương hiệu sữa chuyên biệt dành cho xương khớp đến từ tập đoàn Fonterra (New Zealand). Đây là sản phẩm sữa được nghiên cứu và phát triển chuyên biệt dành cho người trưởng thành từ 19 tuổi trở lên, đặc biệt là người trung niên, cao tuổi, phụ nữ sau sinh, người có nguy cơ loãng xương. Anlene cung cấp nguồn canxi, vitamin D, collagen, protein và các dưỡng chất thiết yếu giúp duy trì hệ xương khớp khỏe mạnh.",
@@ -369,7 +411,26 @@ var PROJECTS_BIG = [
     project: "Tài Trợ Sản Phẩm Và Quà Tặng Cho 10 Bệnh Viện Đầu Ngành",
     project_en: "Product and Gift Sponsorship for 10 Leading Hospitals",
     partner: "Cerelac",
+    title: "OTB x Cerelac: Tài Trợ Sản Phẩm Và Quà Tặng Cho 10 Bệnh Viện Đầu Ngành",
+    title_en: "OTB x Cerelac: Product and Gift Sponsorship for 10 Leading Hospitals",
+    project: "Tài Trợ Sản Phẩm Và Quà Tặng Cho 10 Bệnh Viện Đầu Ngành",
+    project_en: "Product and Gift Sponsorship for 10 Leading Hospitals",
+    partner: "Cerelac",
     desc: "Tài trợ sản phẩm & quà tặng cho 10 bệnh viện đầu ngành.",
+    desc_en: "Product and gift sponsorship for 10 leading hospitals.",
+    duration: "3 tháng",
+    duration_en: "3 months",
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Representative project images:",
+    cover: "images/duan3_1.png",
+    gallery: [
+      "images/duan3_2.png",
+      "images/duan3_3.png",
+       "images/duan3_4.png",
+      "images/duan3_5.png",
+      "images/duan3_6.png",
+      "images/duan3_8.png"
+    ],
     desc_en: "Product and gift sponsorship for 10 leading hospitals.",
     duration: "3 tháng",
     duration_en: "3 months",
@@ -393,7 +454,35 @@ var PROJECTS_BIG = [
     project: "Tài Trợ Sản Phẩm Cho Gần 150.000 Bà Mẹ",
     project_en: "Product Sponsorship for Nearly 150,000 Mothers",
     partner: "Cerelac",
+    title: "OTB x Cerelac: Tài Trợ Sản Phẩm Cho Gần 150.000 Bà Mẹ",
+    title_en: "OTB x Cerelac: Product Sponsorship for Nearly 150,000 Mothers",
+    project: "Tài Trợ Sản Phẩm Cho Gần 150.000 Bà Mẹ",
+    project_en: "Product Sponsorship for Nearly 150,000 Mothers",
+    partner: "Cerelac",
     desc: "Tài trợ sản phẩm cho gần 150.000 bà mẹ.",
+    desc_en: "Product sponsorship for nearly 150,000 mothers.",
+    duration: "8 tháng",
+    duration_en: "8 months",
+    duration_label: "Thời gian dự án",
+    duration_label_en: "Project Duration",
+    coverage: "10 tỉnh thành, 24 bệnh viện & trung tâm tiêm chủng",
+    coverage_en: "10 provinces/cities, 24 hospitals and immunization centers",
+    results_title: "Kết quả đạt được:",
+    results_title_en: "Results Achieved:",
+    results: [
+      "Tài trợ sản phẩm cho 146.000 bà mẹ có con từ 9 tháng đến 48 tháng.",
+      "Tài trợ sản phẩm cho 87.200 bà mẹ có con từ 6 tháng đến 9 tháng.",
+    ],
+    results_en: [
+      "Sponsored products to 146,000 mothers with children aged 9 to 48 months.",
+      "Sponsored products to 87,200 mothers with children aged 6 to 9 months.",
+    ],
+    cover: "./images/duan4_1.png",
+    gallery: [
+      "./images/duan4_2.png",
+      "./images/duan4_3.png",
+      "./images/duan4_4.png",
+    ],
     desc_en: "Product sponsorship for nearly 150,000 mothers.",
     duration: "8 tháng",
     duration_en: "8 months",
@@ -428,7 +517,61 @@ var PROJECTS_BIG = [
     partner: "Bobby",
     scale: "Hơn 15 cơ sở y tế",
     scale_en: "More than 15 healthcare facilities",
+    title: "OTB x Bobby: Tài Trợ Sản Phẩm Dùng Thử Cho Hơn 15 Cơ Sở Y Tế",
+    title_en: "OTB x Bobby: Trial Product Sponsorship for Over 15 Healthcare Facilities",
+    project: "Tài Trợ Sản Phẩm Dùng Thử",
+    project_en: "Trial Product Sponsorship",
+    partner: "Bobby",
+    scale: "Hơn 15 cơ sở y tế",
+    scale_en: "More than 15 healthcare facilities",
     desc: "Tài trợ sản phẩm dùng thử cho hơn 15 cơ sở y tế.",
+    desc_en: "Trial product sponsorship for over 15 healthcare facilities.",
+    detail:
+      "Tã Bobby (hay còn gọi là bỉm Bobby) là thương hiệu tã giấy dùng một lần dành cho trẻ em, thuộc tập đoàn Unicharm (Nhật Bản). Đây là dòng sản phẩm rất phổ biến tại Việt Nam, được thiết kế để giúp bé khô thoáng, thoải mái, dễ vận động và hạn chế hăm tã.",
+    detail_en:
+      "Bobby diapers (also known as Bobby nappies) are a single-use diaper brand for children from Unicharm Corporation (Japan). This product line is very popular in Vietnam and is designed to keep babies dry, comfortable and free to move while reducing diaper rash.",
+    detail_sections: [
+      {
+        title: "Tã Bobby có nhiều loại:",
+        title_en: "Types of Bobby diapers include:",
+        items: [
+          "Tã dán (cho bé sơ sinh và bé nhỏ).",
+          "Tã quần (cho bé lớn, bé biết bò hoặc biết đi).",
+          "Tã đêm (siêu thấm, giúp bé ngủ ngon cả đêm).",
+        ],
+        items_en: [
+          "Tape diapers (for newborns and small babies).",
+          "Pull-up pants (for older babies who crawl or walk).",
+          "Night diapers (super absorbent, helping babies sleep well through the night).",
+        ],
+      },
+      {
+        title: "Tại sao nên dùng tã Bobby?",
+        title_en: "Why choose Bobby diapers?",
+        items: [
+          "Giữ vệ sinh cho bé: Giúp thấm hút nước tiểu, giữ da bé luôn khô thoáng.",
+          "Bảo vệ da: Hạn chế nguy cơ hăm, mẩn đỏ nhờ công nghệ thấm hút hiện đại.",
+          "Tiện lợi cho ba mẹ: Dùng tã giấy thay vì tã vải giúp ba mẹ tiết kiệm thời gian giặt giũ, chăm bé dễ dàng hơn.",
+          "Đáp ứng theo từng giai đoạn phát triển: Có nhiều kích cỡ và dòng sản phẩm phù hợp với từng giai đoạn tăng trưởng của bé.",
+        ],
+        items_en: [
+          "Maintain baby hygiene: Absorb urine and keep the baby’s skin dry.",
+          "Protect skin: Reduce the risk of rash and redness thanks to advanced absorbency technology.",
+          "Convenient for parents: Disposable diapers save washing time and make baby care easier.",
+          "Suitable for all growth stages: Various sizes and product lines fit each stage of a baby’s development.",
+        ],
+      },
+    ],
+      cover: "./images/duan5_1.png",
+    gallery_title: "Một số hình ảnh xuyên suốt dự án:",
+    gallery_title_en: "Representative images throughout the project:",
+    gallery: [
+       "images/duan5_2.png",
+      "images/duan5_3.png",
+      "images/duan5_4.png",
+      "images/duan5_5.png",
+      "images/duan5_6.png"
+    ],
     desc_en: "Trial product sponsorship for over 15 healthcare facilities.",
     detail:
       "Tã Bobby (hay còn gọi là bỉm Bobby) là thương hiệu tã giấy dùng một lần dành cho trẻ em, thuộc tập đoàn Unicharm (Nhật Bản). Đây là dòng sản phẩm rất phổ biến tại Việt Nam, được thiết kế để giúp bé khô thoáng, thoải mái, dễ vận động và hạn chế hăm tã.",
@@ -488,7 +631,57 @@ var PROJECTS_BIG = [
     partner_en: "Milna Weaning Biscuits",
     scale: "20 bệnh viện",
     scale_en: "20 hospitals",
+    title: "OTB x Bánh Ăn Dặm Milna: Tài Trợ Sản Phẩm Và Quà Tặng Miễn Phí Cho 20 Bệnh Viện",
+    title_en: "OTB x Milna Weaning Biscuits: Product Sponsorship and Free Gifts for 20 Hospitals",
+    project: "Tài Trợ Sản Phẩm Và Quà Tặng Miễn Phí Cho 20 Bệnh Viện",
+    project_en: "Product Sponsorship and Free Gifts for 20 Hospitals",
+    partner: "Bánh Ăn Dặm Milna",
+    partner_en: "Milna Weaning Biscuits",
+    scale: "20 bệnh viện",
+    scale_en: "20 hospitals",
     desc: "Tài trợ sản phẩm & quà tặng miễn phí cho 20 bệnh viện.",
+    desc_en: "Product sponsorship and free gifts for 20 hospitals.",
+    detail:
+      "Bánh ăn dặm Milna là dòng sản phẩm bánh dinh dưỡng dành riêng cho trẻ nhỏ trong giai đoạn ăn dặm, thuộc thương hiệu Milna (Indonesia). Bánh được thiết kế với kết cấu mềm, dễ tan trong miệng, giúp bé tập nhai, tập cắn mà không bị hóc.",
+    detail_en:
+      "Milna Weaning Biscuits are a nutritional biscuit product specially designed for young children in the weaning phase, from the Milna brand (Indonesia). The biscuits feature a soft texture that easily dissolves in the mouth, helping babies practice chewing and biting safely without choking risks.",
+    detail_sections: [
+      {
+        title:
+          "Ngoài ra, bánh còn bổ sung các dưỡng chất thiết yếu hỗ trợ sự phát triển toàn diện cho trẻ như:",
+        title_en:
+          "Additionally, the biscuits are enriched with essential nutrients to support comprehensive development in children, including:",
+        items: [
+          "Vitamin và khoáng chất.",
+          "Canxi.",
+          "DHA.",
+          "Chất xơ hòa tan.",
+        ],
+        items_en: [
+          "Vitamins and minerals.",
+          "Calcium.",
+          "DHA.",
+          "Soluble fiber.",
+        ],
+      },
+    ],
+    cover: "images/duan6_1.png",
+    gallery_title: "Một số hình ảnh xuyên suốt dự án:",
+    gallery_title_en: "Representative images throughout the project:",
+    gallery: [
+      "images/duan6_2.png",
+      "images/duan6_3.png",
+      "images/duan6_4.png",
+      "images/duan6_5.png",
+      "images/duan6_6.png",
+      "images/duan6_7.png",
+      "images/duan6_8.png",
+      "images/duan6_9.png",
+      "images/duan6_10.png",
+      "images/duan6_11.png",
+      "images/duan6_12.png",
+      "images/duan6_13.png"
+    ],
     desc_en: "Product sponsorship and free gifts for 20 hospitals.",
     detail:
       "Bánh ăn dặm Milna là dòng sản phẩm bánh dinh dưỡng dành riêng cho trẻ nhỏ trong giai đoạn ăn dặm, thuộc thương hiệu Milna (Indonesia). Bánh được thiết kế với kết cấu mềm, dễ tan trong miệng, giúp bé tập nhai, tập cắn mà không bị hóc.",
@@ -540,7 +733,49 @@ var PROJECTS_BIG = [
     project: "Tài Trợ Sản Phẩm & Quà Tặng",
     project_en: "Product & Gift Sponsorship",
     partner: "Moony",
+    title: "OTB x Moony: Tài Trợ Sản Phẩm & Quà Tặng",
+    title_en: "OTB x Moony: Product & Gift Sponsorship",
+    project: "Tài Trợ Sản Phẩm & Quà Tặng",
+    project_en: "Product & Gift Sponsorship",
+    partner: "Moony",
     desc: "Tài trợ sản phẩm & quà tặng.",
+    desc_en: "Product & gift sponsorship.",
+    detail:
+      "Moony là thương hiệu tã giấy cao cấp của Nhật Bản, thuộc tập đoàn Unicharm, nổi tiếng với các đặc điểm vượt trội.",
+    detail_en:
+      "Moony is a premium diaper brand from Japan under the Unicharm group, renowned for its outstanding features.",
+    detail_sections: [
+      {
+        title: "Đặc điểm nổi bật:",
+        title_en: "Outstanding features:",
+        items: [
+          "Chất liệu mềm mại như lụa, an toàn tuyệt đối cho da bé.",
+          "Khả năng thấm hút siêu tốt, chống tràn, giúp bé luôn khô thoáng.",
+          "Thiết kế siêu mỏng nhẹ, giúp bé vận động thoải mái cả ngày.",
+          "Nhiều dòng sản phẩm theo giai đoạn phát triển của bé: tã dán sơ sinh, tã quần cho bé lớn, tã đêm…",
+        ],
+        items_en: [
+          "Soft silk-like material, absolutely safe for the baby’s skin.",
+          "Excellent absorbency and leak protection, keeping babies dry and comfortable.",
+          "Ultra-thin and lightweight design, allowing babies to move freely all day.",
+          "Various product lines tailored to each development stage: newborn diapers, pull-up pants for older babies and night diapers.",
+        ],
+      },
+    ],
+    detail_outro:
+      "Moony có mặt tại thị trường Việt Nam từ nhiều năm nay và là một trong những lựa chọn hàng đầu của các mẹ yêu thích tã Nhật.",
+    detail_outro_en:
+      "Moony has been present in the Vietnamese market for many years and remains one of the top choices for mothers who prefer Japanese diapers.",
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Representative project images:",
+    cover: "images/duan7_1.png",
+    gallery: [
+       "images/duan7_2.png",
+      "images/duan7_3.png",
+      "images/duan7_4.png",
+      "images/duan7_5.png",
+      "images/duan6_6.png",
+    ],
     desc_en: "Product & gift sponsorship.",
     detail:
       "Moony là thương hiệu tã giấy cao cấp của Nhật Bản, thuộc tập đoàn Unicharm, nổi tiếng với các đặc điểm vượt trội.",
@@ -587,7 +822,63 @@ var PROJECTS_BIG = [
     project: "Tài Trợ Sản Phẩm Và Quà Tặng",
     project_en: "Product & Gift Sponsorship",
     partner: "Sure Prevent Gold",
+    title: "OTB x Sure Prevent Gold: Tài Trợ Sản Phẩm Và Quà Tặng",
+    title_en: "OTB x Sure Prevent Gold: Product & Gift Sponsorship Project",
+    project: "Tài Trợ Sản Phẩm Và Quà Tặng",
+    project_en: "Product & Gift Sponsorship",
+    partner: "Sure Prevent Gold",
     desc: "Tài trợ sản phẩm và quà tặng.",
+    desc_en: "Product & gift sponsorship.",
+    detail:
+      "Sure Prevent Gold là một dòng sữa dinh dưỡng cao cấp dành cho người lớn tuổi và người cần phục hồi sức khỏe. Đây là sản phẩm của thương hiệu Vinamilk (Việt Nam), được nghiên cứu đặc biệt để hỗ trợ tăng cường sức khỏe tim mạch, xương khớp, trí não và hệ miễn dịch.",
+    detail_en:
+      "Sure Prevent Gold is a premium nutritional milk product designed for the elderly and individuals in need of recovery. It is a flagship product of Vinamilk (Vietnam), specially formulated to support cardiovascular health, bone and joint strength, cognitive function, and immune system performance.",
+    detail_sections: [
+      {
+        title: "Thành phần nổi bật của Sure Prevent Gold bao gồm:",
+        title_en: "Key ingredients of Sure Prevent Gold include:",
+        items: [
+          "Sterol ester thực vật giúp giảm cholesterol xấu.",
+          "Canxi và Vitamin D3 hỗ trợ xương chắc khỏe.",
+          "Collagen thủy phân tốt cho da và khớp.",
+          "Omega 3, 6, 9 hỗ trợ trí não và tim mạch.",
+          "Chất xơ FOS và hệ lợi khuẩn tốt cho tiêu hóa.",
+        ],
+        items_en: [
+          "Plant Sterol Esters to help lower bad cholesterol (LDL-C).",
+          "Calcium and Vitamin D3 for stronger bones.",
+          "Hydrolyzed Collagen for skin and joint health.",
+          "Omega 3, 6 and 9 for cognitive and cardiovascular support.",
+          "FOS fiber and probiotics for improved digestion.",
+        ],
+      },
+      {
+        title:
+          "Sure Prevent Gold cung cấp một giải pháp dinh dưỡng đầy đủ và cân đối, giúp người lớn tuổi:",
+        title_en:
+          "Sure Prevent Gold offers a complete and balanced nutritional solution to help seniors:",
+        items: [
+          "Giữ gìn và cải thiện sức khỏe tổng thể.",
+          "Phòng ngừa bệnh tật.",
+          "Nâng cao chất lượng cuộc sống, sống khỏe – sống vui.",
+        ],
+        items_en: [
+          "Maintain and improve overall health.",
+          "Prevent illness.",
+          "Enhance quality of life — live well, live happily.",
+        ],
+      },
+    ],
+    cover:"images/duan8_1.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Project Highlights:",
+    gallery: [
+      "images/duan8_2.png",
+      "images/duan8_3.png",
+      "images/duan8_4.png",
+      "images/duan8_5.png",
+      "images/duan8_6.png",
+    ],
     desc_en: "Product & gift sponsorship.",
     detail:
       "Sure Prevent Gold là một dòng sữa dinh dưỡng cao cấp dành cho người lớn tuổi và người cần phục hồi sức khỏe. Đây là sản phẩm của thương hiệu Vinamilk (Việt Nam), được nghiên cứu đặc biệt để hỗ trợ tăng cường sức khỏe tim mạch, xương khớp, trí não và hệ miễn dịch.",
@@ -648,7 +939,46 @@ var PROJECTS_BIG = [
     project: "Tài Trợ Sản Phẩm Và Quà Tặng",
     project_en: "Product and Gift Sponsorship",
     partner: "Monte",
+    title: "OTB x Monte: Tài Trợ Sản Phẩm Và Quà Tặng",
+    title_en: "OTB x Monte: Product and Gift Sponsorship",
+    project: "Tài Trợ Sản Phẩm Và Quà Tặng",
+    project_en: "Product and Gift Sponsorship",
+    partner: "Monte",
     desc: "Tài trợ sản phẩm và quà tặng.",
+    desc_en: "Product and gift sponsorship.",
+    detail:
+      "Monte là một thương hiệu váng sữa cao cấp dành cho trẻ em đến từ tập đoàn Zott — một trong những hãng sản xuất sữa nổi tiếng của Đức. Tên đầy đủ của sản phẩm là Zott Monte. Đây là sản phẩm váng sữa tráng miệng có hương vị béo ngậy, mềm mịn, được trẻ em và phụ huynh trên toàn thế giới yêu thích.",
+    detail_en:
+      "Monte is a premium yogurt brand for children from Zott Group — one of Germany's renowned dairy producers. Its full name is Zott Monte. This yogurt dessert has a rich, creamy texture and flavor loved by children and parents worldwide.",
+    detail_sections: [
+      {
+        title: "Monte có lợi ích gì?",
+        title_en: "What are the benefits of Monte?",
+        items: [
+          "Bổ sung thêm năng lượng, canxi, chất béo và các vi chất cần thiết cho sự phát triển của trẻ nhỏ.",
+          "Phù hợp trong các bữa phụ hoặc dùng như một món tráng miệng lành mạnh.",
+          "Hương vị thơm ngon, dễ ăn, giúp mẹ dễ dàng cho bé làm quen với thực phẩm từ sữa.",
+          "Không chứa chất bảo quản — an toàn cho trẻ nhỏ.",
+        ],
+        items_en: [
+          "Provides extra energy, calcium, fats and essential micronutrients needed for children's development.",
+          "Ideal as a snack or a healthy dessert option.",
+          "Its delicious taste makes it easy to eat, helping parents introduce dairy products to their children.",
+          "Contains no preservatives — safe for young children.",
+        ],
+      },
+    ],
+    cover:"images/duan9_1.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Representative project images:",
+    gallery: [
+      "images/duan9_2.png",
+      "images/duan9_3.png",
+      "images/duan9_4.png",
+      "images/duan9_5.png",
+    ],
+  },
+  /*{
     desc_en: "Product and gift sponsorship.",
     detail:
       "Monte là một thương hiệu váng sữa cao cấp dành cho trẻ em đến từ tập đoàn Zott — một trong những hãng sản xuất sữa nổi tiếng của Đức. Tên đầy đủ của sản phẩm là Zott Monte. Đây là sản phẩm váng sữa tráng miệng có hương vị béo ngậy, mềm mịn, được trẻ em và phụ huynh trên toàn thế giới yêu thích.",
@@ -690,7 +1020,37 @@ var PROJECTS_BIG = [
     project: "Lớp Học Làm Cha Mẹ",
     project_en: "Parenting Class",
     partner: "Cộng Đồng Bầu",
+    title: "Cộng Đồng Bầu x Elevit: Lớp Học Làm Cha Mẹ",
+    title_en: "Cộng Đồng Bầu x Elevit: Parenting Class",
+    project: "Lớp Học Làm Cha Mẹ",
+    project_en: "Parenting Class",
+    partner: "Cộng Đồng Bầu",
     desc: "Lớp học làm cha mẹ.",
+    desc_en: "Parenting class.",
+    detail:
+      "Elevit là thương hiệu viên uống bổ sung vitamin và khoáng chất dành cho phụ nữ mang thai và cho con bú, thuộc tập đoàn Bayer (Đức) — một trong những tập đoàn dược phẩm hàng đầu thế giới. Sản phẩm giúp bổ sung đầy đủ các dưỡng chất cần thiết cho sức khỏe của mẹ và sự phát triển toàn diện của thai nhi trong suốt thai kỳ và giai đoạn sau sinh. Elevit Pronatal là dòng sản phẩm phổ biến nhất trên thị trường Việt Nam.",
+    detail_en:
+      "Elevit is a vitamin and mineral supplement brand for pregnant and breastfeeding women from Bayer (Germany), one of the world’s leading pharmaceutical groups. The product provides essential nutrients for maternal health and the baby’s comprehensive development throughout pregnancy and the postpartum period. Elevit Pronatal is its most popular product line in Vietnam.",
+    detail_sections: [
+      {
+        title: "Elevit giúp:",
+        title_en: "Elevit helps:",
+        items: [
+          "Bổ sung đầy đủ 12 loại vitamin và 8 loại khoáng chất quan trọng.",
+          "Hỗ trợ sự phát triển não bộ, tim mạch, xương và hệ miễn dịch của bé.",
+          "Tăng cường sức khỏe cho mẹ, giảm mệt mỏi khi mang thai và sau sinh.",
+        ],
+        items_en: [
+          "Provide 12 essential vitamins and 8 important minerals.",
+          "Support the baby’s brain, cardiovascular system, bones and immune development.",
+          "Strengthen maternal health and reduce fatigue during pregnancy and after birth.",
+        ],
+      },
+    ],
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Representative project images:",
+    gallery: [],
+  },*/
     desc_en: "Parenting class.",
     detail:
       "Elevit là thương hiệu viên uống bổ sung vitamin và khoáng chất dành cho phụ nữ mang thai và cho con bú, thuộc tập đoàn Bayer (Đức) — một trong những tập đoàn dược phẩm hàng đầu thế giới. Sản phẩm giúp bổ sung đầy đủ các dưỡng chất cần thiết cho sức khỏe của mẹ và sự phát triển toàn diện của thai nhi trong suốt thai kỳ và giai đoạn sau sinh. Elevit Pronatal là dòng sản phẩm phổ biến nhất trên thị trường Việt Nam.",
@@ -726,6 +1086,13 @@ var PROJECTS_BIG = [
     partner: "Lactacyd",
     topic: "Chăm sóc trẻ sơ sinh và nuôi con bằng sữa mẹ",
     topic_en: "Newborn Care and Breastfeeding",
+    title: "OTB x Lactacyd: Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    title_en: "OTB x Lactacyd: Antenatal Seminar for Expectant Mothers",
+    project: "Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    project_en: "Antenatal Seminar for Expectant Mothers",
+    partner: "Lactacyd",
+    topic: "Chăm sóc trẻ sơ sinh và nuôi con bằng sữa mẹ",
+    topic_en: "Newborn Care and Breastfeeding",
     desc: "Hội thảo tiền sản dành cho mẹ bầu.",
     desc_en: "Antenatal seminar for expectant mothers.",
     detail:
@@ -744,30 +1111,129 @@ var PROJECTS_BIG = [
       "Introduce Lactacyd Baby products, helping mothers confidently care for their baby’s delicate skin.",
       "Spread essential knowledge and practical newborn-care skills from hospitals to families across the country.",
     ],
-    cover:"images/duan11_1",
+    cover: "images/duan11_1.png",
     gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
     gallery_title_en: "Some highlight images from the seminar:",
     gallery: [
-      "images/duan11_2",
-      "images/duan11_3",
-      "images/duan11_4",
-      "images/duan11_5",
-      "images/duan11_6",
-      "images/duan11_7",
-      "images/duan11_8"
+      "images/duan11_2.png",
+      "images/duan11_3.png",
+      "images/duan11_4.png",
+      "images/duan11_5.png",
+      "images/duan11_6.png",
+      "images/duan11_7.png",
+      "images/duan11_8.png",
     ],
   },
   {
     cat: "workshop",
     brand: "BV Hoàn Mỹ Sài Gòn",
+    title:
+      'OTB x Bệnh Viện Hoàn Mỹ Sài Gòn: Hội Thảo "Sanh An Toàn – Những Điều Cần Biết"',
+    title_en:
+      "OTB x Hoan My Saigon Hospital: Seminar “Safe Delivery – What You Need to Know”",
+    project: 'Hội Thảo "Sanh An Toàn – Những Điều Cần Biết"',
+    project_en: "Seminar “Safe Delivery – What You Need to Know”",
+    partner: "Bệnh viện Hoàn Mỹ Sài Gòn",
+    partner_en: "Hoan My Saigon Hospital",
     desc: "Hội thảo 'Sanh An Toàn – Những Điều Cần Biết'.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-hoan-my-sai-gon-hoi-thao-sanh-an-toan-nhung-dieu-can-biet",
+    desc_en: "Seminar “Safe Delivery – What You Need to Know”.",
+    detail:
+      "Bệnh viện Hoàn Mỹ Sài Gòn là một bệnh viện đa khoa tư nhân lớn và uy tín tại TP. Hồ Chí Minh, trực thuộc Tập đoàn Y khoa Hoàn Mỹ — tập đoàn y tế tư nhân hàng đầu Việt Nam. Đây là cơ sở y tế tư nhân đầu tiên tại Việt Nam được công nhận đạt chuẩn chất lượng JCI (Joint Commission International) — một trong những tiêu chuẩn an toàn y tế khắt khe nhất thế giới.",
+    detail_en:
+      "Hoan My Saigon Hospital is one of the largest and most reputable private general hospitals in Ho Chi Minh City. It operates under Hoan My Medical Corporation — the leading private healthcare group in Vietnam. It is also the first private healthcare facility in Vietnam to be accredited with JCI (Joint Commission International) standards — one of the most stringent global benchmarks for patient safety and healthcare quality.",
+    cover: "images/duan12.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    gallery: [
+      "images/unan12_2.png",
+      "images/duan12_3.png",
+      "images/duan12_4.png",
+      "images/duan12_5.png",
+    ],
   },
+
   {
     cat: "workshop",
     brand: "BV Phụ Sản Trung Ương",
+    title: "OTB x Bệnh Viện Phụ Sản Trung Ương: Ngày Hội Dành Cho Mẹ Và Bé",
+    title_en:
+      "OTB x National Hospital of Obstetrics and Gynecology: Festival for Mothers and Babies",
+    project: "Ngày Hội Dành Cho Mẹ Và Bé",
+    project_en: "Festival for Mothers and Babies",
+    partner: "Bệnh Viện Phụ Sản Trung Ương",
+    partner_en: "National Hospital of Obstetrics and Gynecology",
+    sponsor: "Huggies",
     desc: "Ngày hội dành cho mẹ và bé.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-phu-san-trung-uong-ngay-hoi-danh-cho-me-va-be",
+    desc_en: "Festival for mothers and babies.",
+    objectives_title: "Mục tiêu:",
+    objectives_title_en: "Objectives:",
+    objectives: [
+      "Hỗ trợ các cặp vợ chồng, đặc biệt là các mẹ bầu và gia đình lần đầu làm cha mẹ, có thêm kiến thức và kinh nghiệm về chăm sóc sức khỏe thai kỳ và nuôi con khỏe mạnh.",
+    ],
+    objectives_en: [
+      "Support couples — especially expectant mothers and first-time parents — by providing knowledge and practical experience on pregnancy care and raising healthy children.",
+    ],
+    detail_sections: [
+      {
+        title: "Hoạt động chính:",
+        title_en: "Main Activities:",
+        items: [
+          "Tư vấn trực tiếp từ các bác sĩ đầu ngành của Bệnh viện Phụ Sản Trung Ương về chăm sóc sức khỏe thai kỳ và nuôi dưỡng em bé sau khi chào đời.",
+          "Cung cấp kiến thức về dinh dưỡng thai kỳ.",
+          "Cung cấp kiến thức về chăm sóc sau sinh.",
+          "Hướng dẫn phòng tránh bệnh cho mẹ và bé.",
+          "Trang bị kỹ năng chăm sóc trẻ sơ sinh.",
+          "Giải đáp thắc mắc của các mẹ bầu và các cặp vợ chồng trẻ.",
+        ],
+        items_en: [
+          "Direct consultation with leading doctors from the National Hospital of Obstetrics and Gynecology on pregnancy and newborn care.",
+          "Guidance on nutrition during pregnancy.",
+          "Knowledge about postpartum care.",
+          "Disease prevention for both mother and baby.",
+          "Practical newborn-care skills.",
+          "A Q&A session for expectant mothers and young couples.",
+        ],
+      },
+      {
+        title: "Hoạt động mua sắm:",
+        title_en: "Shopping Activities:",
+        items: [
+          "Các mẹ được mua sản phẩm dành cho mẹ và bé với giá ưu đãi tại sự kiện.",
+          "Các sản phẩm tiêu biểu đến từ Huggies, Anmum, Green Cross, Opti và nhiều thương hiệu uy tín khác.",
+        ],
+        items_en: [
+          "Mothers had the opportunity to purchase mother-and-baby products at special discounted prices during the event.",
+          "Featured products came from Huggies, Anmum, Green Cross, Opti and other reputable brands.",
+        ],
+      },
+      {
+        title: "Đặc biệt:",
+        title_en: "Special highlight:",
+        items: [
+          "Khi tham dự chương trình, các mẹ có cơ hội nhận những phần quà hấp dẫn từ các nhà tài trợ.",
+        ],
+        items_en: [
+          "Participants had the opportunity to receive attractive gifts from the program’s sponsors.",
+        ],
+      },
+    ],
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    gallery_title: "1.Khu vực cổng chào",
+    gallery_title_en: "1.Welcome gate area",
+    gallery: [
+      "images/duan14_2.png",
+      "images/duan14_3.png",
+      "images/duan14_4.png",
+    ],
+    gallery_title: "2. Khai mạc và khách mời",
+    gallery_title_en: "2. Opening Ceremony and Guests",
+    gallery: [
+      "images/duan14_5.png",
+      "images/duan14_6.png",
+      "images/duan14_7.png",
+    ],
+    gallery_show_captions: false,
   },
   {
     cat: "workshop",
@@ -783,9 +1249,50 @@ var PROJECTS_BIG = [
   },
   {
     cat: "workshop",
-    brand: "HIPP",
+    brand: "HiPP",
+    title: "OTB x HiPP: Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    title_en: "OTB x HiPP: Prenatal Workshop for Expecting Mothers",
+    project: "Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    project_en: "Prenatal Workshop for Expecting Mothers",
+    partner: "HiPP",
+    scale: "Hơn 100 mẹ bầu",
+    scale_en: "Over 100 expecting mothers participated",
     desc: "Hội thảo tiền sản dành cho mẹ bầu.",
-    url: "https://www.otbcreatives.com/otb-x-hipp-hoi-thao-tien-san-danh-cho-me-bau",
+    desc_en: "Prenatal workshop for expecting mothers.",
+    detail:
+      "HiPP là một thương hiệu nổi tiếng của Đức, chuyên sản xuất các sản phẩm dinh dưỡng và chăm sóc dành cho trẻ sơ sinh và trẻ nhỏ. Với bề dày lịch sử hơn 125 năm, HiPP nổi tiếng toàn cầu với các sản phẩm hữu cơ đạt tiêu chuẩn cao.",
+    detail_en:
+      "HiPP is a well-known German brand specializing in nutrition and care products for infants and young children. With a history of over 125 years, HiPP is globally recognized for its high-quality organic products.",
+    detail_sections: [
+      {
+        title: "Danh mục sản phẩm chính của HiPP bao gồm:",
+        title_en: "HiPP’s main product categories include:",
+        items: [
+          "Sữa công thức HiPP.",
+          "Thực phẩm ăn dặm HiPP (bột ăn dặm, cháo, mì, bánh ăn dặm…).",
+          "Nước ép và đồ uống dinh dưỡng cho bé.",
+          "Sản phẩm chăm sóc da, vệ sinh cho bé (sữa tắm, kem chống hăm…).",
+        ],
+        items_en: [
+          "HiPP Infant Formula.",
+          "HiPP Complementary Foods (baby cereals, porridge, noodles, teething biscuits, etc.).",
+          "Juices and nutritional drinks for babies.",
+          "Baby skincare and hygiene products (baby bath, diaper rash cream, etc.).",
+        ],
+      },
+    ],
+    detail_outro:
+      "Điểm nổi bật: HiPP cam kết về chất lượng hữu cơ tuyệt đối, an toàn cho sức khỏe của trẻ nhỏ.",
+    detail_outro_en:
+      "Key highlight: HiPP stands out for its absolute commitment to organic quality and safety, helping protect the well-being of young children.",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    cover:"images/duan13_1.png",
+    gallery: [
+      "images/duan13_2.png",
+      "images/duan13_3.png",
+      "images/duan13_4.png"
+    ],
   },
   {
     cat: "workshop",
@@ -987,6 +1494,7 @@ var NETWORK = [
   "BV ĐHYD Shingmark",
   "BV Phụ Sản Âu Cơ",
   "BV Phụ Sản Quốc Thoế",
+  "BV Phụ Sản Quốc Thoế",
   "BV Quốc Tế Green Hải Phòng",
   "BV Phụ Sản Tâm Phúc Hải Phòng",
   "BV Phụ Sản Hải Dương",
@@ -1185,7 +1693,11 @@ function catLabel(c) {
   return c;
 }
 function workCard(w, idx) {
+function workCard(w, idx) {
   return (
+    '<button class="work-card" type="button" onclick="openProjectDetail(' +
+    idx +
+    ')"><div class="wc">' +
     '<button class="work-card" type="button" onclick="openProjectDetail(' +
     idx +
     ')"><div class="wc">' +
@@ -1226,6 +1738,13 @@ function openProjectDetail(idx) {
     if (w.partner)
       metaItems.push(
         bi("Đối tác: " + w.partner, "Partner: " + (w.partner_en || w.partner)),
+      );
+    if (w.sponsor)
+      metaItems.push(
+        bi(
+          "Đơn vị tài trợ: " + w.sponsor,
+          "Sponsor: " + (w.sponsor_en || w.sponsor),
+        ),
       );
     if (w.duration)
       metaItems.push(
@@ -1348,12 +1867,24 @@ function openProjectDetail(idx) {
         ? '<div class="pd-gallery">' +
           w.gallery
             .map(function (src, gi) {
+              var captionVi =
+                (w.gallery_captions || [])[gi] ||
+                "Hình ảnh dự án " + (gi + 1);
+              var captionEn =
+                (w.gallery_captions_en || [])[gi] ||
+                "Project image " + (gi + 1);
+              var caption =
+                w.gallery_show_captions === false
+                  ? ""
+                  : "<figcaption>" + bi(captionVi, captionEn) + "</figcaption>";
               return (
-                '<img src="' +
+                '<figure class="pd-gallery-item"><img src="' +
                 esc(src) +
                 '" alt="' +
                 esc(w.brand + " " + (gi + 2)) +
-                '">'
+                '">' +
+                caption +
+                "</figure>"
               );
             })
             .join("") +
@@ -1395,6 +1926,11 @@ function renderWork(cat) {
           return w.cat === cat;
         })
       : PROJECTS_BIG;
+  g.innerHTML = list
+    .map(function (w) {
+      return workCard(w, PROJECTS_BIG.indexOf(w));
+    })
+    .join("");
   g.innerHTML = list
     .map(function (w) {
       return workCard(w, PROJECTS_BIG.indexOf(w));
@@ -1570,12 +2106,15 @@ function _swapPage(page) {
   for (var i = 0; i < pages.length; i++) pages[i].classList.remove("active");
   target.classList.add("active");
   var navPage = page === "project-detail" ? "projects" : page;
+  var navPage = page === "project-detail" ? "projects" : page;
   var links = document.querySelectorAll(".nav-a");
   for (var k = 0; k < links.length; k++)
     links[k].classList.toggle(
       "active",
       links[k].getAttribute("data-nav") === navPage,
+      links[k].getAttribute("data-nav") === navPage,
     );
+  document.body.setAttribute("data-theme", target.getAttribute("data-theme") || page);
   document.body.setAttribute("data-theme", target.getAttribute("data-theme") || page);
   window.scrollTo({ top: 0, behavior: "auto" });
   revealIn(target);
