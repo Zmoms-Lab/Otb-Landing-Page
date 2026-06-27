@@ -1111,17 +1111,17 @@ var PROJECTS_BIG = [
       "Introduce Lactacyd Baby products, helping mothers confidently care for their baby’s delicate skin.",
       "Spread essential knowledge and practical newborn-care skills from hospitals to families across the country.",
     ],
-    cover:"images/duan11_1",
+    cover: "images/duan11_1.png",
     gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
     gallery_title_en: "Some highlight images from the seminar:",
     gallery: [
-      "images/duan11_2",
-      "images/duan11_3",
-      "images/duan11_4",
-      "images/duan11_5",
-      "images/duan11_6",
-      "images/duan11_7",
-      "images/duan11_8"
+      "images/duan11_2.png",
+      "images/duan11_3.png",
+      "images/duan11_4.png",
+      "images/duan11_5.png",
+      "images/duan11_6.png",
+      "images/duan11_7.png",
+      "images/duan11_8.png",
     ],
   },
   {
@@ -1739,6 +1739,13 @@ function openProjectDetail(idx) {
       metaItems.push(
         bi("Đối tác: " + w.partner, "Partner: " + (w.partner_en || w.partner)),
       );
+    if (w.sponsor)
+      metaItems.push(
+        bi(
+          "Đơn vị tài trợ: " + w.sponsor,
+          "Sponsor: " + (w.sponsor_en || w.sponsor),
+        ),
+      );
     if (w.duration)
       metaItems.push(
         bi(
@@ -1860,12 +1867,24 @@ function openProjectDetail(idx) {
         ? '<div class="pd-gallery">' +
           w.gallery
             .map(function (src, gi) {
+              var captionVi =
+                (w.gallery_captions || [])[gi] ||
+                "Hình ảnh dự án " + (gi + 1);
+              var captionEn =
+                (w.gallery_captions_en || [])[gi] ||
+                "Project image " + (gi + 1);
+              var caption =
+                w.gallery_show_captions === false
+                  ? ""
+                  : "<figcaption>" + bi(captionVi, captionEn) + "</figcaption>";
               return (
-                '<img src="' +
+                '<figure class="pd-gallery-item"><img src="' +
                 esc(src) +
                 '" alt="' +
                 esc(w.brand + " " + (gi + 2)) +
-                '">'
+                '">' +
+                caption +
+                "</figure>"
               );
             })
             .join("") +
