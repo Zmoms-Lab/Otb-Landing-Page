@@ -1564,32 +1564,338 @@ var PROJECTS_BIG = [
   {
     cat: "workshop",
     brand: "Happy Event",
+    title: "OTB x Happy Event: Tài Trợ Sản Phẩm & Hội Thảo",
+    title_en: "OTB x Happy Event: Product Sponsorship & Workshops",
+    project: "Tài Trợ Sản Phẩm & Hội Thảo",
+    project_en: "Product Sponsorship & Workshops",
+    partner: "Happy Event",
+    scale:
+      "Hơn 20 lớp học và hội thảo được tổ chức tại hơn 10 bệnh viện thuộc 3 thành phố Hà Nội, Hồ Chí Minh và Đà Nẵng",
+    scale_en:
+      "Over 20 workshops and seminars organized at more than 10 hospitals across 3 cities: Hanoi, Ho Chi Minh City, and Da Nang",
+    duration: "Giữa tháng 4/2016 – Tháng 9/2016",
+    duration_en: "Mid-April 2016 – September 2016",
+    duration_label: "Thời gian triển khai",
+    duration_label_en: "Implementation Period",
     desc: "Tài trợ sản phẩm & hội thảo.",
-    url: "https://www.otbcreatives.com/copy-of-otb-x-nestle-hospital-sponsorship-gerber-cerelac",
-  },
+    desc_en: "Product sponsorship & workshops.",
+    results_title: "Kết quả đạt được:",
+    results_title_en: "Results Achieved:",
+    results: ["Số lượng: 300.000 mẫu sản phẩm."],
+    results_en: ["Distributed 300,000 product samples."],
+    cover:"images/duan17_1.png",
+
+     gallery_sections: [
+      {
+        images: [
+          "images/duan17_2.png",
+          "images/duan17_3.png",
+          "images/duan17_4.png",
+           "images/duan17_5.png",
+          "images/duan17_6.png",
+        ],
+      },
+      {
+        title: "Hội Thảo: Chăm sóc sức khỏe và làm đẹp trong thai kỳ",
+        title_en: "Seminar:Healthcare and Beauty Care During Pregnancy",
+        images: [
+          "images/duan17_7.png",
+          "images/duan17_8.png",
+          "images/duan17_9.png",
+          "images/duan17_10.png",
+          "images/duan17_11.png",
+          "images/duan17_12.png",
+          "images/duan17_13.png",
+        ],
+      },
+     ],
+    },
   {
     cat: "workshop",
     brand: "Obimin",
+    title: "OTB x Obimin: Tổ Chức 70 Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    title_en: "OTB x Obimin: Organized 70 Prenatal Workshops for Expecting Mothers",
+    project: "Hội Thảo Tiền Sản Dành Cho Mẹ Bầu",
+    project_en: "Prenatal Workshops for Expecting Mothers",
+    partner: "Obimin",
     desc: "Tổ chức 70 hội thảo tiền sản dành cho mẹ bầu.",
-    url: "https://www.otbcreatives.com/copy-of-otb-x-bepanthen-nurse-to-be-brand-ambassador",
+    desc_en: "Organized 70 prenatal workshops for expecting mothers.",
+    results_title: "Kết quả đạt được:",
+    results_title_en: "Results Achieved:",
+    results: [
+      "Cung cấp kiến thức và giáo dục cho 12.000 phụ nữ mang thai tại 10 bệnh viện.",
+    ],
+    results_en: [
+      "Provided knowledge and education to 12,000 pregnant women across 10 hospitals.",
+    ],
+    cover: "images/duan18_1.png",
+    gallery: [
+      "images/duan18_2.png",
+      "images/duan18_3.png",
+      "images/duan18_4.png",
+      "images/duan18_5.png",
+      "images/duan18_6.png",
+    ],
   },
   {
     cat: "seminar",
     brand: "Johnson's Baby",
+    title: "OTB x Johnson's Baby: Hội Thảo Y Tế Dành Cho 100 Y Tá Và Điều Dưỡng",
+    title_en: "OTB x Johnson's Baby: Medical Workshop for 100 Nurses and Caregivers",
+    project: "Hội Thảo Y Tế Dành Cho 100 Y Tá Và Điều Dưỡng",
+    project_en: "Medical Workshop for 100 Nurses and Caregivers",
+    partner: "Johnson's Baby",
     desc: "Hội thảo y tế dành cho 100 y tá và điều dưỡng.",
-    url: "https://www.otbcreatives.com/otb-x-johnson-s-baby-hoi-thao-y-te-danh-cho-100-y-ta-va-dieu-duong",
+    desc_en: "Medical workshop for 100 nurses and caregivers.",
+    detail:
+      "Johnson's Baby là thương hiệu sản phẩm chăm sóc trẻ em nổi tiếng toàn cầu, thuộc tập đoàn Johnson & Johnson (Mỹ). Được thành lập từ năm 1893, đây là một trong những thương hiệu lâu đời và uy tín nhất thế giới trong lĩnh vực chăm sóc da và tóc cho trẻ nhỏ. Các sản phẩm được thiết kế với công thức an toàn, dịu nhẹ, phù hợp với làn da mỏng manh và nhạy cảm của trẻ sơ sinh và trẻ nhỏ.",
+    detail_en:
+      "Johnson's Baby is a leading global baby care brand under Johnson & Johnson (USA), established in 1893. Its products are renowned for safe, gentle formulas specially designed for the delicate and sensitive skin of newborns and young children.",
+    detail_sections: [
+      {
+        title: "Vì sao trẻ nhỏ cần sản phẩm chăm sóc chuyên biệt?",
+        title_en: "Why do babies need specialized care products?",
+        items: [
+          "Làn da trẻ sơ sinh mỏng hơn 5 lần da người lớn, dễ bị khô, kích ứng hoặc dị ứng.",
+          "Các sản phẩm thông thường dành cho người lớn không phù hợp với làn da trẻ nhỏ.",
+        ],
+        items_en: [
+          "Newborn skin is up to 5 times thinner than adult skin, making it prone to dryness, irritation and allergies.",
+          "Adult skin care products are unsuitable for babies.",
+        ],
+      },
+      {
+        title: "Johnson's Baby đáp ứng nhu cầu:",
+        title_en: "Johnson's Baby provides:",
+        items: [
+          "Vệ sinh, dưỡng ẩm và chăm sóc da, tóc an toàn cho bé.",
+          "Không gây cay mắt, không gây kích ứng da.",
+          "Được kiểm nghiệm da liễu nghiêm ngặt.",
+          "Mùi hương nhẹ nhàng giúp bé thư giãn và dễ chịu.",
+        ],
+        items_en: [
+          "Gentle cleansing, moisturizing and care for the baby's skin and hair.",
+          "No eye irritation or skin sensitivity.",
+          "Strict dermatological testing.",
+          "A mild fragrance that helps babies relax and feel comfortable.",
+        ],
+      },
+    ],
+    cover:"images/duan19_1.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the workshop:",
+    gallery: [
+      "images/duan19_2.png",
+      "images/duan19_3.png",
+      "images/duan19_4.png",
+      "images/duan19_5.png",
+      "images/duan19_6.png"
+    ],
   },
   {
     cat: "seminar",
     brand: "Huggies x BV Từ Dũ",
+    title: "OTB x Huggies & Bệnh Viện Từ Dũ: Hội Thảo Khoa Học Cho Gần 100 Y Bác Sĩ",
+    title_en:
+      "OTB x Huggies & Từ Dũ Hospital: Scientific Seminar for Nearly 100 Doctors and Nurses",
+    project: "Hội Thảo Khoa Học Cho Y Bác Sĩ",
+    project_en: "Scientific Seminar for Doctors and Nurses",
+    partner: "Huggies & Bệnh Viện Từ Dũ",
+    partner_en: "Huggies & Từ Dũ Hospital",
+    scale: "Hơn 200 khách mời",
+    scale_en: "Over 200 attendees",
+    topic: "Những phương pháp tiên tiến trong chăm sóc, điều trị sinh non và trẻ sinh non",
+    topic_en:
+      "Advanced Methods in Care and Treatment of Premature Births and Premature Babies",
     desc: "Hội thảo khoa học cho gần 100 y bác sĩ.",
-    url: "https://www.otbcreatives.com/otb-x-huggies-benh-vien-tu-du-hoi-thao-khoa-hoc-cho-gan-100-y-bac-si",
+    desc_en: "Scientific seminar for nearly 100 doctors and nurses.",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    cover:"images/duan20_1.png",
+     gallery_sections: [
+      {
+        title: "Cổng Chào",
+        title_en: "Welcome Gate",
+        images: [
+          "images/duan20_2.png",
+          "images/duan20_3.png"
+        ],
+      },
+      {
+        title: "Khu vực lễ tân",
+        title_en: "Reception area",
+        images: [
+          "images/duan20_4.png",
+          "images/duan20_5.png",
+          "images/duan20_6.png"
+        ],
+      },
+      {
+        title: "Khu vực trưng bày",
+        title_en:"Dislay area",
+        images: [
+          "images/duan20_7.png",
+          "images/duan20_8.png",
+          "images/duan20_9.png"
+        ],
+      },
+      {
+        title: "Hội trường",
+        title_en:"Conference hall",
+        images: [
+          "images/duan20_10.png",
+          "images/duan20_11.png",
+          "images/duan20_12.png"
+        ]
+      },
+      {
+        title: "Đón tiếp khách mời",
+        title:"Welcome guests",
+        images: [
+          "images/duan20_13.png",
+          "images/duan20_14.png",
+          "images/duan20_15.png",
+          "images/duan20_16.png"
+        ]
+      },
+      {
+        title:"Check in Khách tham dự",
+        title_en:"Check in guests",
+        images: [
+          "images/duan20_17.png",
+          "images/duan20_18.png",
+          "images/duan20_19.png"
+        ]
+      },
+      {
+        title: "Tặng quà DOORGIFT cho khách tham dự",
+        title_en: "DOORGIFT gifts for guests ",
+        images: [
+          "images/duan20_20.png",
+          "images/duan20_21.png",
+          "images/duan20_22.png"
+        ]
+      },
+      {
+        title:"Khai mạc chương trình",
+        title_en:"Program opening",
+        images: [
+          "images/duan20_23.png",
+          "images/duan20_24.png",
+          "images/duan20_25.png"
+        ]
+      },
+      {
+        title:"Tọa đàm: các vấn đề liên quan đến trẻ sinh non",
+        title_en:"Discussion: Issues Related to infants",
+        images: [
+          "images/duan20_26.png",
+          "images/duan20_27.png"
+        ]
+      },
+       {
+        title:"Bốc thăm may mắn",
+        title_en:"Lucky draw",
+        images: [
+          "images/duan20_28.png",
+          "images/duan20_29.png",
+          "images/duan20_30.png"
+        ]
+      },
+      {
+        title:"Trao chứng chỉ CME cho khánh mời tham dự",
+        title_en:"Awarding CME cretificates to attendants",
+        images:[
+          "images/duan20_31.png",
+          "images/duan20_32.png",
+          "images/duan20_33.png"
+        ]
+      }
+    ],
   },
   {
     cat: "seminar",
     brand: "Huggies",
+    title: "OTB x Huggies: Hội Thảo Khoa Học Cho Hơn 200 Y Bác Sĩ",
+    title_en: "OTB x Huggies: Scientific Seminar for Over 200 Doctors and Nurses",
+    project: "Hội Thảo Khoa Học Cho Y Bác Sĩ",
+    project_en: "Scientific Seminar for Doctors and Nurses",
+    partner: "Huggies",
+    scale: "Hơn 200 khách mời",
+    scale_en: "Over 200 attendees",
+    topic: "Những phương pháp tiên tiến trong chăm sóc, điều trị sinh non và trẻ sinh non",
+    topic_en:
+      "Advanced Methods in Care and Treatment of Premature Births and Premature Babies",
     desc: "Hội thảo khoa học cho hơn 200 y bác sĩ.",
-    url: "https://www.otbcreatives.com/otb-x-huggies-hoi-thao-khoa-hoc-cho-hon-200-y-bac-si",
+    desc_en: "Scientific seminar for over 200 doctors and nurses.",
+    cover: "images/duan21_1.png",
+    gallery_title: "Một số hình ảnh tiêu biểu của hội thảo:",
+    gallery_title_en: "Some highlight images from the seminar:",
+    gallery_sections: [
+      {
+        title: "Đón khách – check-in",
+        title_en: "Guest Reception – Check-in",
+        images: [
+          "images/duan21_2.png",
+          "images/duan21_3.png",
+          "images/duan21_24.png",
+        ],
+      },
+      {
+        title: "PG trao bộ sản phẩm Huggies cho khách tham dự",
+        title_en: "Huggies Product Kits for Attendees",
+        images: [
+          "images/duan21_5.png",
+          "images/duan21_6.png",
+          "images/duan21_7.png",
+        ],
+      },
+      {
+        title: "Khách tham dự nhận quà và chụp hình lưu niệm",
+        title_en: "Guests Receive Gifts and Take Souvenir Photos",
+        images: [
+          "images/duan21_8.png",
+          "images/duan21_9.png",
+          "images/duan21_10.png",
+        ],
+      },
+      {
+        title: "Giới thiệu chủ tọa, nhà tài trợ, báo cáo viên và ban tổ chức",
+        title_en:
+          "Introduction of the Chair, Sponsors, Presenters and Organizing Committee",
+        images: [
+          "images/duan21_11.png",
+          "images/duan21_12.png",
+          "images/duan21_13.png",
+        ],
+      },
+      {
+        title: "Báo cáo viên báo cáo cac chuyên đề trong hội thoại",
+        title_en: "presenters report on topics in the workshop",
+        images:[
+          "images/duan21_14.png",
+          "images/duan21_15.ng",
+          "images/duan21_16.png"
+        ] 
+      },
+      {
+        title:"Hình ảnh khách tham dự",
+        title:"Photos of attendants",
+        images:[
+          "images/duan21_17.png",
+          "images/duan21.18.png",
+          "images/duan21_19.png"
+        ]
+      },
+      {
+      title:"Rút thăm trúng thưởng",
+      title_en:"Sweepstakes",
+      images:[
+        "images/duan21_20.png",
+        "images/duan21_21.png"
+      ]
+      }
+    ],
   },
   {
     cat: "seminar",
@@ -2129,24 +2435,12 @@ function openProjectDetail(idx) {
         ? '<div class="pd-gallery">' +
           w.gallery
             .map(function (src, gi) {
-              var captionVi =
-                (w.gallery_captions || [])[gi] ||
-                "Hình ảnh dự án " + (gi + 1);
-              var captionEn =
-                (w.gallery_captions_en || [])[gi] ||
-                "Project image " + (gi + 1);
-              var caption =
-                w.gallery_show_captions === false
-                  ? ""
-                  : "<figcaption>" + bi(captionVi, captionEn) + "</figcaption>";
               return (
                 '<figure class="pd-gallery-item"><img src="' +
                 esc(src) +
                 '" alt="' +
                 esc(w.brand + " " + (gi + 2)) +
-                '">' +
-                caption +
-                "</figure>"
+                '"></figure>'
               );
             })
             .join("") +
@@ -2208,7 +2502,7 @@ function openProjectDetail(idx) {
       bi("Xem dự án khác", "Browse more projects") +
       "</button></div></div>";
   }
-  nav("project-detail");
+  nav("project-detail", true);
 }
 function renderWork(cat) {
   var g = el("work-grid");
