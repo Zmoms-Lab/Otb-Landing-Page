@@ -1076,7 +1076,7 @@ var PROJECTS_BIG = [
     gallery: [],
   },
 ]*/
-  {
+  /*{
     cat: "workshop",
     brand: "Elevit",
     title: "Cộng Đồng Bầu x Elevit: Lớp Học Làm Cha Mẹ",
@@ -1109,7 +1109,7 @@ var PROJECTS_BIG = [
     gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
     gallery_title_en: "Representative project images:",
     gallery: [],
-  },
+  },*/
   {
     cat: "workshop",
     brand: "Lactacyd",
@@ -1900,56 +1900,725 @@ var PROJECTS_BIG = [
   {
     cat: "seminar",
     brand: "BV Hạnh Phúc",
-    desc: "Hội thảo chăm sóc sức khỏe cho 1000 người.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-hanh-phuc-hoi-thao-cham-soc-suc-khoe-cho-1000-nguoi",
+    title:
+      "OTB x Bệnh Viện Hạnh Phúc: Hội Thảo Chăm Sóc Sức Khỏe Cho 1.000 Phụ Nữ Trung Niên",
+    title_en:
+      "OTB x Hanh Phuc Hospital: Health Care Seminar for 1,000 Middle-Aged Women",
+    project: "Hội Thảo Chăm Sóc Sức Khỏe",
+    project_en: "Health Care Seminar",
+    partner: "Bệnh Viện Hạnh Phúc",
+    partner_en: "Hanh Phuc Hospital",
+    attendance: "1.000 phụ nữ trung niên",
+    attendance_en: "1,000 middle-aged women",
+    desc: "Hội thảo chăm sóc sức khỏe cho 1.000 phụ nữ trung niên.",
+    desc_en: "Health care seminar for 1,000 middle-aged women.",
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlight images from the event:",
+    cover: "images/duan22_1.png",
+    gallery_sections:
+     [
+      {
+      title: "Trao đổi, tư vấn và kiểm tra sức khỏe",
+      title_en: "Exchange, consulation and health check",
+      images: [
+        "images/duan22_2.png",
+        "images/duan22_3.png",
+        "images/duan22_4.png" ,
+        "images/duan22_5.png"
+      ]
+      },
+      {
+        title: "Chương trình: Bốc thăm may mắn",
+        title_en: "Program: Lucky Draw",
+        images: [
+          "images/duan22_6.png",
+          "images/duana22_6.png",
+        ]
+      }
+     ]
   },
   {
     cat: "seminar",
     brand: "Columbia Asia Bình Dương",
-    desc: "Hội thảo tầm soát đái tháo đường cho hơn 1000 người cao tuổi.",
-    url: "https://www.otbcreatives.com/otb-x-columbia-asia-binh-duong-hoi-thao-tam-soat-nguy-co-dai-thao-duong-cho-hon-1000-nguoi-cao-tuoi",
+    title:
+      "OTB x Columbia Asia Bình Dương: Hội Thảo Tầm Soát Nguy Cơ Đái Tháo Đường Cho Hơn 1.000 Người Cao Tuổi",
+    title_en:
+      "OTB x Columbia Asia Binh Duong: Diabetes Risk Screening Seminar for Over 1,000 Elderly Participants",
+    project: "Hội Thảo Tầm Soát Nguy Cơ Đái Tháo Đường",
+    project_en: "Diabetes Risk Screening Seminar",
+    partner: "Columbia Asia Bình Dương",
+    partner_en: "Columbia Asia Binh Duong",
+    attendance: "Trên 1.000 người cao tuổi",
+    attendance_en: "Over 1,000 elderly participants",
+    desc:
+      "Hội thảo tầm soát nguy cơ đái tháo đường cho hơn 1.000 người cao tuổi.",
+    desc_en:
+      "Diabetes risk screening seminar for over 1,000 elderly participants.",
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlight images from the event:",
+    cover: "images/duan23_1.png",
+    gallery_sections: [
+      {
+        title: "Đón tiếp khánh mời và đăng kí kiểm tra sức khỏe",
+        title_en: "Welcoming guests and registering for health check-ups",
+        images: [
+          "images/duan23_2.png",
+          "images/duan23_3.png",
+        ]
+        },
+        {
+          title: "Khu vực thảo luận về sức khỏe và hướng dẫn nấu ăn cho người cao tuổi",
+          title_en:"A discussion area for health and cooking instructions for seniors.",
+          images: [
+            "images/duan23_4.png",
+            "images/duan23_5.png",
+            "images/duan23_6.png"
+          ]
+        },
+        {
+          title: "Bác sĩ tư vấn và chia sẻ",
+          title_en:"Doctor consultation and sharing",
+          images: [
+            "images/duan23_7.png",
+            "images/duan23_8.png",
+            "images/duan23_9.png"
+          ]
+        },
+        {
+          title: "Xuất hiện trên các trang báo lớn",
+          title_en:"Appeared in major newspapers",
+          images: [
+            "images/duan23_10.png",
+            "images/duan23_11.png",
+            "images/duan23_12.png"
+          ]
+        }
+    ]
   },
   {
     cat: "seminar",
     brand: "BV Hữu Nghị",
+    title:
+      "OTB x Bệnh Viện Hữu Nghị: Hội Thảo Chăm Sóc Sức Khỏe Cho Hơn 500 Người Cao Tuổi",
+    title_en:
+      "OTB x Huu Nghi Hospital: Health Seminar for Over 500 Elderly Participants",
+    project: "Ngày Hội Chăm Sóc Sức Khỏe Tim Mạch Và Tiểu Đường",
+    project_en: "Cardiovascular and Diabetes Health Fair",
+    partner: "Bệnh Viện Hữu Nghị",
+    partner_en: "Huu Nghi Hospital",
+    main_sponsors: "Nutren Diabetes (Nestlé), Omron",
+    main_sponsors_en: "Nutren Diabetes (Nestlé), Omron",
     desc: "Hội thảo chăm sóc sức khỏe cho hơn 500 người cao tuổi.",
-    url: "https://www.otbcreatives.com/otb-x-benh-vien-huu-nghi-hoi-thao-cham-soc-suc-khoe-cho-hon-500-nguoi-cao-tuoi",
+    desc_en: "Health seminar for over 500 elderly participants.",
+    results: [
+      "Tư vấn phương pháp chăm sóc và điều trị đái tháo đường cho hơn 500 người cao tuổi",
+    ],
+    results_en: [
+      "Provided care and treatment consultation for diabetes to over 500 elderly participants",
+    ],
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlight images from the event:",
+    cover: "images/duan24_1.png",
+    gallery_sections: [
+      {title: " Khu vực đón tiếp và kiểm tra sức khỏe",
+        title_en: "Reception and Health Check Area",
+        images: [
+          "images/duan24_2.png",
+        "images/duan24_3.png",
+        "images/duan24_4.png",
+        ]
+      },
+      {
+        title: "Bác sĩ tư vấn trực tiếp",
+        title_en: "Doctor consultation directly",
+        images: [
+          "images/duan24_5.png",
+          "images/duan24_6.png",
+          "images/duan24_7.png"
+        ]
+      },
+      {
+        title:"Hướng dẫn về phương pháp bấm huyệt phản xạ",
+        title_en:"Instructions on reflexology",
+        images: [
+          "images/duan24_8.png",
+          "images/duan24_9.png",
+
+        ]
+      },
+      {
+        title:"HLV Nguyễn Thị Tuyết hướng dẫn tập bài thể dục trên ghế ",
+        tilte_en:"Coach Nguyen Thi Tuyet guides chair exercises",
+        images: [
+          "images/duan24_10.png",
+          "images/duan24_11.png"
+        ]
+      },
+      {
+        title:"Bác sĩ tư vấn sức khỏe ",
+        title_en:"Doctor health consultation",
+        images: [
+          "images/duan24_11.png",
+          "images/duan24_13.png"
+        ]
+      },
+      {
+        title:"Xuất hiện trên các mặt báo lớn",
+        title_en: "Appear in major newspacers",
+        images: [
+          "images/duan24_14.png",
+          "images/duan24_15.png"
+        ],
+      }
+    ],
   },
   {
     cat: "gift",
     brand: "GreenCross",
-    desc: "Tài trợ sản phẩm tại bệnh viện.",
-    url: "https://www.otbcreatives.com/otb-x-greencross-tai-tro-san-pham-tai-benh-vien",
+    title: "OTB x GreenCross: Tài Trợ Sản Phẩm Tại Bệnh Viện",
+    title_en: "OTB x GreenCross: Product Sponsorship at Hospitals",
+    project: "Tài Trợ Sản Phẩm Tại Bệnh Viện",
+    project_en: "Product Sponsorship at Hospitals",
+    partner: "GreenCross",
+    desc:
+      "GreenCross đồng hành tài trợ toàn diện sản phẩm vệ sinh diệt khuẩn cho 50 bệnh viện thông qua chương trình.",
+    desc_en:
+      "GreenCross has comprehensively sponsored antibacterial hygiene products for 50 hospitals through the program.",
+    objectives: [
+      "Hỗ trợ bảo vệ sức khỏe cộng đồng.",
+      "Góp phần xây dựng môi trường bệnh viện an toàn, sạch khuẩn.",
+      "Lan tỏa thói quen rửa tay và sát khuẩn đúng cách.",
+    ],
+    objectives_en: [
+      "Supporting community health protection.",
+      "Contributing to building a safe, sterile hospital environment.",
+      "Promoting proper handwashing and sanitizing habits.",
+    ],
+    contributions_title: "Các đóng góp ấn tượng",
+    contributions_title_en: "Impressive Contributions",
+    contributions: [
+      {
+        item: "Chai GC 70% đặt tại bệnh viện, bàn bác sĩ, khu đón tiếp",
+        item_en:
+          "70% GC bottles placed at hospitals, doctors' desks and reception areas",
+        quantity: "2.000 chai",
+        quantity_en: "2,000 bottles",
+      },
+      {
+        item: "Door Gift",
+        item_en: "Door Gifts",
+        quantity: "15.000 bộ",
+        quantity_en: "15,000 sets",
+      },
+      {
+        item: "Kệ rửa tay trong bệnh viện",
+        item_en: "Handwashing stations in hospitals",
+        quantity: "300 kệ",
+        quantity_en: "300 stations",
+      },
+      {
+        item: "Chai GC trên kệ rửa tay",
+        item_en: "GC bottles on handwashing stations",
+        quantity: "1.200 chai",
+        quantity_en: "1,200 bottles",
+      },
+      {
+        item: "Can GC 5 lít để refill",
+        item_en: "5-liter GC refill cans",
+        quantity: "600 can",
+        quantity_en: "600 cans",
+      },
+    ],
+    gallery_title: "Một số hình ảnh tiêu biểu của dự án:",
+    gallery_title_en: "Some highlighted images from the project:",
+    cover: "images/duans25_1.png",
+    gallery: [
+      "images/duan25_2.png",
+      "images/duan25_3.png",
+      "images/duan25_4.png",
+    ],
   },
   {
     cat: "gift",
     brand: "Molfix",
+    title: "OTB x Molfix: Hành Trình Lan Tỏa Yêu Thương Đến 300.000 Mẹ Việt",
+    title_en:
+      "OTB x Molfix: The Journey of Spreading Love to 300,000 Vietnamese Mothers",
+    project: "Hành Trình Lan Tỏa Yêu Thương Đến 300.000 Mẹ Việt",
+    project_en:
+      "The Journey of Spreading Love to 300,000 Vietnamese Mothers",
+    partner: "Molfix",
+    scale: "Hơn 20 bệnh viện sản và nhi trên toàn quốc",
+    scale_en: "More than 20 maternity and pediatric hospitals nationwide",
     desc: "Hành trình lan tỏa yêu thương đến 300.000 mẹ Việt.",
-    url: "https://www.otbcreatives.com/otb-x-molfix-hanh-trinh-lan-toa-yeu-thuong-den-300-000-me-viet",
+    desc_en:
+      "The journey of spreading love to 300,000 Vietnamese mothers.",
+    detail:
+      "Với sứ mệnh đồng hành cùng mẹ bầu trong suốt hành trình mang thai và chăm sóc bé yêu, OTB đã không ngừng nỗ lực mang đến những giá trị thiết thực. Việc hợp tác với Molfix – thương hiệu tã giấy hàng đầu thế giới – không chỉ là một hoạt động thiện nguyện mà còn là lời cam kết mạnh mẽ trong việc nâng cao chất lượng chăm sóc trẻ sơ sinh tại Việt Nam.",
+    detail_en:
+      "With the mission to accompany expectant mothers throughout their pregnancy journey and baby care, OTB has continuously strived to deliver meaningful value. The partnership with Molfix – a world-leading diaper brand – is not only a charitable activity but also a strong commitment to improving the quality of newborn care in Vietnam.",
+    gallery_title: "Một số hình ảnh nổi bật trong dự án:",
+    gallery_title_en: "Some highlighted images from the project:",
+    cover: "images/duan26_1.png",
+    gallery: [
+      "images/duan26_2.png",
+      "images/duan26_3.png",
+      "images/duan26_4.png",
+      "images/duan26_5.png",
+      "images/duan26_6.png",
+    ],
   },
   {
     cat: "gift",
     brand: "Bobby x BV Phụ Sản TW",
+    title:
+      "OTB x Bobby & Bệnh Viện Phụ Sản Trung Ương: Ngày Hội Tri Ân Các Bà Mẹ Của Năm 2014",
+    title_en:
+      "OTB x Bobby & National Obstetrics Hospital: 2014 Mothers’ Appreciation Day",
+    project: "Ngày Hội Tri Ân Các Bà Mẹ Của Năm 2014",
+    project_en: "2014 Mothers’ Appreciation Day",
+    main_sponsors: "Bobby",
+    main_sponsors_en: "Bobby",
+    attendance: "Hơn 900 khách mời",
+    attendance_en: "Over 900 guests",
     desc: "Ngày hội tri ân các bà mẹ của năm 2014.",
-    url: "https://www.otbcreatives.com/otb-x-bobby-benh-vien-phu-san-trung-uong-ngay-hoi-tri-an-cac-ba-me-cua-nam-2014",
+    desc_en: "2014 Mothers’ Appreciation Day.",
+    detail:
+      "Thông điệp của ngày hội mà Bobby muốn truyền tải là thay lời bố và em bé cảm ơn mẹ đã đưa con đến cuộc sống. Bobby mong muốn trở thành người bạn đồng hành chăm sóc bé yêu trong những năm tháng đầu đời và chia sẻ niềm hạnh phúc to lớn này cùng các gia đình.",
+    detail_en:
+      "The message Bobby wants to convey through this event is a heartfelt thank you from fathers and babies to mothers for bringing them into life. Bobby hopes to be the trusted companion in caring for the little ones during their early years and to share this great happiness with families.",
+    detail_outro:
+      "Hiểu được những lo lắng và mong muốn của các bậc cha mẹ, đặc biệt là những người đang mang thai, tã giấy chống hăm Bobby đã phối hợp cùng Bệnh viện Phụ Sản Trung Ương tổ chức ngày hội tri ân dành cho các bà mẹ. Tại đây, các mẹ có cơ hội tiếp nhận kiến thức hữu ích, lắng nghe kinh nghiệm và chia sẻ của các bác sĩ chuyên khoa về quá trình mang thai; được giải đáp những lo lắng của mình; đồng thời tham dự miễn phí các hoạt động thăm khám sức khỏe thai kỳ, siêu âm, xét nghiệm, massage bầu và đo độ loãng xương.",
+    detail_outro_en:
+      "Understanding the concerns and wishes of parents, especially expectant mothers, Bobby’s anti-rash diapers collaborated with the National Obstetrics Hospital to organize this appreciation day for mothers. Here, mothers had the opportunity to gain useful knowledge, listen to experiences and advice from specialist doctors about pregnancy, have their questions and worries addressed, and participate in free activities such as prenatal health check-ups, ultrasounds, tests, prenatal massage, and bone density measurement.",
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlighted images from the event:",
+    cover: "images/duan27_1.png",
+    gallery_sections: [
+      {
+        title:"Khu vực cổng chào và sân khấu",
+        title_en:"Entrance and stage area",
+        images: [
+          "images/duan27_2.png",
+          "images/duan27_3.png",
+          "images/duan27_4.png",
+        ]
+      },
+      {
+        title:"Khách mời đăng kí tham dự từ sáng sớm",
+        title_en:"Guests registered early in the morning",
+        images: [
+        "images/duan27_5.png",
+        "images/duan27_6.png",
+        "images/duan27_7.png",
+        ]
+      },
+      {
+        title:"khai mạc buổi lễ",
+        title_en:"Opening ceremony",
+        images: [
+          "images/duan27_8.png",
+          "images/duan27_9.png",
+          "images/duan27_10.png",
+          "images/duan27_11.png",
+          "images/duan27_12.png",
+          "images/duan27_13.png",
+        ]
+      },
+      {
+        title:"Các hoạt động hướng dẫn thực hành kỹ năng",
+        title_en:"Skill practice instruction activities",
+        images:[
+          "images/duan27_14.png",
+          "images/duan27_15.png",
+          "images/duan27_16.png",
+        ]
+      },
+      {
+        title:"Hoạt động tư vấn và tặng quà cho khách mời nhộn nhịp suốt ngày hội",
+        title_en:"Consulting and gift giving activities for guests were bustling throughout the festival",
+        images:[
+          "images/duan27_17.png",
+          "images/duan27_18.png",
+          "images/duan27_19.png",
+        ]
+      },
+      {
+        title:"Các mẹ bầu tích cực tham gia các hoạt động soi da và massage bầu",
+        title_en:"Pregnant mothers actively participate in skin examination and pregnancy massage activities",
+        images:[
+          "images/duan27_20.png",
+          "images/duan27_21.png",
+          "images/duan27_22.png",
+        ]
+
+      },
+      {
+        title:" Không khí nhộn nhịp tại khu vực chăm sóc sức khỏe nhà Anmum",
+        title_en:" Bustling atmosphere at Anmum's healthcare area",
+        images:[
+          "images/duan27_23.png",
+          "images/duan27_24.png",
+          "images/duan27_25.png",
+        ]
+      },
+      {
+        title:"Các hoạt động của nhãn hàng Bobby",
+        title_en:"Activities of the Bobby brand",
+        images:[
+          "images/duan27_26.png",
+          "images/duan27_27.png",
+          "images/duan27_28.png",
+        ]
+      },
+      {
+      title:"Xuất hiện trên các trang báo lớn",
+      title_en:"Appeared in major newspapers",
+      images:[
+        "images/duan27_29.png",
+        "images/duan27_30.png",
+        "images/duan27_31.png",
+      ]
+      }
+
+    ],
   },
   {
     cat: "gift",
     brand: "Huggies x BV Từ Dũ",
-    desc: "Ngày hội 'Mẹ và bé đón chào năm mới 2015'.",
-    url: "https://www.otbcreatives.com/otb-x-huggies-benh-vien-tu-du-ngay-hoi-me-va-be-don-chao-nam-moi-2015",
+    title:
+      'OTB x Huggies & Bệnh Viện Từ Dũ: Ngày Hội "Mẹ Và Bé Đón Chào Năm Mới 2015"',
+    title_en:
+      'OTB x Huggies & Từ Dũ Hospital: "Mom & Baby Welcome the New Year 2015" Festival',
+    project: 'Ngày Hội "Mẹ Và Bé Đón Chào Năm Mới 2015"',
+    project_en: '"Mom & Baby Welcome the New Year 2015" Festival',
+    main_sponsors: "Huggies",
+    main_sponsors_en: "Huggies",
+    attendance: "Hơn 600 khách mời",
+    attendance_en: "Over 600 guests",
+    desc: "Ngày hội Mẹ và Bé đón chào năm mới 2015.",
+    desc_en: "Mom & Baby Welcome the New Year 2015 Festival.",
+    detail:
+      "Ngày hội với sự tài trợ của nhãn hàng tã giấy Huggies – Công ty Kimberly Clark Việt Nam mang đến không gian tưng bừng của những ngày đầu năm mới cùng các hoạt động sôi nổi, phong phú và hoàn toàn miễn phí.",
+    detail_en:
+      "Sponsored by Huggies – Kimberly Clark Vietnam, this joyful festival at the beginning of the new year offered a lively, diverse, and completely free program.",
+    detail_sections: [
+      {
+        title: "Thăm khám sức khỏe:",
+        title_en: "Health Check-ups:",
+        items: [
+          "Mẹ và bé được khám, siêu âm thai, đo folate, đo độ loãng xương, đo huyết áp, đo lượng mỡ thừa, khám răng, kiểm tra thị lực và tư vấn sức khỏe cho bé.",
+        ],
+        items_en: [
+          "Mothers and babies enjoyed pregnancy examinations and ultrasounds, folate testing, bone density measurement, blood pressure monitoring, body fat analysis, dental check-ups, vision tests, and baby health consultations.",
+        ],
+      },
+      {
+        title: "Làm đẹp trong thai kỳ:",
+        title_en: "Prenatal Beauty Care:",
+        items: [
+          "Các dịch vụ massage cho bà bầu và tư vấn biện pháp giảm đau lưng, tê mỏi giúp mẹ luôn khỏe đẹp và tự tin.",
+        ],
+        items_en: [
+          "Services included prenatal massage and advice on reducing back pain and numbness to help mothers stay healthy, beautiful, and confident.",
+        ],
+      },
+      {
+        title: "Vào bếp trong ngày Tết:",
+        title_en: "New Year Cooking Workshop:",
+        items: [
+          "Mẹ và bé trực tiếp thực hành những món ăn đơn giản, bổ dưỡng dưới sự hướng dẫn của bác sĩ đến từ Trung tâm Dinh dưỡng TP.HCM.",
+        ],
+        items_en: [
+          "Mothers and babies prepared simple, nutritious dishes under the guidance of nutrition doctors from the Ho Chi Minh City Nutrition Center.",
+        ],
+      },
+      {
+        title: "Hỏi đáp cùng chuyên gia:",
+        title_en: "Expert Q&A:",
+        items: [
+          "Bác sĩ Nguyễn Thị Ngọc Phượng cùng các nữ hộ sinh và điều dưỡng giàu kinh nghiệm tại Bệnh viện Từ Dũ trực tiếp hướng dẫn và giải đáp thắc mắc.",
+        ],
+        items_en: [
+          "Dr. Nguyễn Thị Ngọc Phượng, along with experienced midwives and nurses from Từ Dũ Hospital, provided direct guidance and answered questions.",
+        ],
+      },
+      {
+        title: "Hái lộc đầu năm:",
+        title_en: "Lucky Draw:",
+        items: [
+          "Huggies, Happy Event, Omron, Green Cross, OPC, Anmum, Chicco, Hello B&B, Cussons Baby và các nhà tài trợ khác dành hàng nghìn phần quà cho mẹ và bé tham dự chương trình.",
+        ],
+        items_en: [
+          "Huggies, Happy Event, Omron, Green Cross, OPC, Anmum, Chicco, Hello B&B, Cussons Baby, and other sponsors offered thousands of gifts to participating mothers and babies.",
+        ],
+      },
+    ],
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlighted images from the event:",
+    cover: "images/duan28_1.png",
+    gallery_sections: [
+      {
+        title: "1. Khu vực cổng chào và sân khấu",
+        title_en: "1. Welcome gate and stage area",
+        images: ["images/duan28_2.png", "images/duan28_3.png", "images/duan28_4.png", "images/duan28_5.png"],
+      },
+      {
+        title: "2. Khu vực đăng ký",
+        title_en: "2. Registration area",
+        images: ["images/duan28_6.png", "images/duan28_7.png"],
+      },
+      {
+        title: "3. Lễ khai mạc",
+        title_en: "3. Opening ceremony",
+        images: ["images/duan28_10.png", "images/duan28_11.png", "images/duan28_12.png"],
+      },
+      {
+        title: "4. Giao lưu cùng Ốc Thanh Vân",
+        title_en: "4. Interaction with Oc Thanh Van",
+        images: ["images/duan28_14.png", "images/duan28_15.png", "images/duan28_16.png"],
+      },
+      {
+        title: "5. Các hoạt động hướng dẫn kỹ năng thực hành",
+        title_en: "5. Practical skills instruction activities",
+        images: ["images/duan28_18.png", "images/duan28_19.png", "images/duan28_20.png"],
+      },
+      {
+        title: "6. Các chuyên đề tư vấn thu hút sự quan tâm của bố mẹ",
+        title_en: "6. Consulting topics attract much attention from fathers and mothers",
+        images: ["images/duan28_22.png", "images/duan28_23.png", "images/duan28_24.png", ],
+      },
+      {
+        title: "7. Hoạt động mua sắm diễn ra sôi nổi",
+        title_en: "7. Shopping activities take place bustlingly",
+        images: ["images/duan28_26.png", "images/duan28_27.png", "images/duan28_28.png", ],
+      },
+      {
+        title: "8. Mẹ bầu thư giãn với massage chân và massage thai kỳ",
+        title_en: "8. Pregnant mothers enjoy foot massage and pregnancy massage",
+        images: ["images/duan28_30.png", "images/duan28_31.png", "images/duan28_32.png"],
+      },
+      {
+        title: "9. Khu vực khám sức khỏe luôn đông đúc",
+        title_en: "9. Health screening area is always crowded",
+        images: ["images/duan28_34.png", "images/duan28_35.png", "images/duan28_36.png", ],
+      },
+      {
+        title: "10. Xuất hiện trên các báo lớn",
+        title_en: "10. Appearing in major newspapers",
+        images: ["images/duan28_38.png", "images/duan28_39.png", "images/duan28_40.png"],
+      },
+    ],
   },
   {
     cat: "gift",
     brand: "Huggies x BV Hùng Vương",
-    desc: "Ngày hội chăm sóc sức khỏe mẹ & bé.",
-    url: "https://www.otbcreatives.com/otb-x-huggies-benh-vien-hung-vuong-ngay-hoi-cham-soc-suc-khoe-me-be",
+    title:
+      "OTB x Huggies & Bệnh Viện Hùng Vương: Ngày Hội Chăm Sóc Sức Khỏe Mẹ & Bé",
+    title_en:
+      "OTB x Huggies & Hùng Vương Hospital: Mom & Baby Health Care Festival",
+    project: "Ngày Hội Chăm Sóc Sức Khỏe Mẹ & Bé",
+    project_en: "Mom & Baby Health Care Festival",
+    main_sponsors: "Huggies",
+    main_sponsors_en: "Huggies",
+    attendance: "Hơn 400 khách mời",
+    attendance_en: "Over 400 guests",
+    desc: "Ngày hội chăm sóc sức khỏe mẹ và bé.",
+    desc_en: "Mom & Baby Health Care Festival.",
+    detail:
+      "Đến với chương trình, các mẹ không chỉ được tư vấn chăm sóc sức khỏe thai kỳ và bé sơ sinh mà còn tham gia phần học kỹ năng chăm sóc bé tại nhà do các bác sĩ, điều dưỡng Bệnh viện Hùng Vương hướng dẫn. Ngày hội cũng có phần tư vấn cách phòng ngừa và chăm sóc bé mắc bệnh sởi, tay chân miệng do bác sĩ Bệnh viện Nhi Đồng 2 trình bày.",
+    detail_en:
+      "At this meaningful event, expectant mothers not only received expert consultations on prenatal care and newborn health but also participated in hands-on baby care workshops led by doctors and nurses from Hùng Vương Hospital. The festival also featured a special session by pediatricians from Children’s Hospital 2 on prevention and care methods for common illnesses such as measles and hand-foot-mouth disease.",
+    detail_outro:
+      "Ngoài ra, các mẹ còn có cơ hội nhận quà tặng đặc biệt, mua sắm sản phẩm mẹ và bé với mức giá ưu đãi và tham gia rút thăm trúng thưởng từ các nhãn hàng Huggies, Anmum, Pigeon, Green Cross, Happy Event, Nature Time, Baby Land, Omron, Khăn giấy ướt Nano, Palmer’s và nhiều thương hiệu khác.",
+    detail_outro_en:
+      "Additionally, attendees had opportunities to receive special gifts, shop for mother and baby products at preferential prices, and win lucky draw prizes from reputable brands including Huggies, Anmum, Pigeon, Green Cross, Happy Event, Nature Time, Baby Land, Omron, Nano Wet Wipes, Palmer’s, and more.",
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlighted images from the event:",
+    cover: "images/duan29_1.png",
+    gallery_sections: [
+      {
+        title: "1. Khu vực cổng chào",
+        title_en: "1. Welcome gate area",
+        images: ["images/duan29_2.png", "images/duan29_3.png", "images/duan29_4.png"],
+      },
+      {
+        title: "2. Không gian hội trường",
+        title_en: "2. Event hall",
+        images: ["images/duan29_5.png", "images/duan29_6.png", "images/duan29_7.png"],
+      },
+      {
+        title: "3. Khai mạc chương trình",
+        title_en: "3. Opening ceremony",
+        images: ["images/duan29_8.png", "images/duan29_9.png", "images/duan29_10.png"],
+      },
+      {
+        title: "4.1. Thương hiệu Huggies",
+        title_en: "4.1. Huggies",
+        images: ["images/duan29_11.png", "images/duan29_12.png", "images/duan29_13.png"],
+      },
+      {
+        title: "4.2. Thương hiệu Anmum",
+        title_en: "4.2. Anmum",
+        images: ["images/duan29_14.png", "images/duan29_15.png"],
+      },
+      {
+        title: "4.3. Thương hiệu Pigeon",
+        title_en: "4.3. Pigeon",
+        images: ["images/duan29_17.png", "images/duan29_18.png", "images/duan29_19.png"],
+      },
+      {
+        title: "4.4. Thương hiệu Palmer’s",
+        title_en: "4.4. Palmer’s",
+        images: ["images/duan29_20.png", "images/duan29_21.png"],
+      },
+      {
+        title: "4.5. Thương hiệu GreenCross",
+        title_en: "4.5. GreenCross",
+        images: ["images/duan29_23.png", "images/duan29_24.png"],
+      },
+      {
+        title: "4.6. Thương hiệu Happy Event",
+        title_en: "4.6. Happy Event",
+        images: ["images/duan29_26.png", "images/duan29_27.png", "images/duan29_28.png"],
+      },
+      {
+        title: "4.7. Thương hiệu Omron",
+        title_en: "4.7. Omron",
+        images: ["images/duan29_29.png", "images/duan29_30.png", "images/duan29_31.png"],
+      },
+      {
+        title: "4.8. Thương hiệu United Pharma",
+        title_en: "4.8. United Pharma",
+        images: ["images/duan29_32.png", "images/duan29_33.png", "images/duan29_34.png"],
+      },
+      {
+        title: "4.9. Thương hiệu OPC",
+        title_en: "4.9. OPC",
+        images: ["images/duan29_35.png", "images/duan29_36.png", "images/duan29_37.png"],
+      },
+      {
+        title: "4.10. Thương hiệu The Nature Time",
+        title_en: "4.10. The Nature Time",
+        images: ["images/duan29_38.png", "images/duan29_39.png", "images/duan29_40.png"],
+      },
+      {
+        title: "4.11. Thương hiệu Babyland",
+        title_en: "4.11. Babyland",
+        images: ["images/duan29_41.png", "images/duan29_42.png"],
+      },
+      {
+        title: "4.12. Thương hiệu Nano",
+        title_en: "4.12. Nano",
+        images: ["images/duan29_44.png", "images/duan29_45.png", "images/duan29_46.png"],
+      },
+      {
+        title: "5. Chuyên gia tư vấn sức khỏe",
+        title_en: "5. Health expert consultation",
+        images: ["images/duan29_47.png", "images/duan29_48.png", "images/duan29_49.png","images/duan29_43.png"],
+      },
+      {
+        title: "6.1. Lắng nghe tư vấn và thăm khám",
+        title_en: "6.1. Consultation and health examinations",
+        images: ["images/duan29_50.png", "images/duan29_51.png", "images/duan29_52.png"],
+      },
+      {
+        title: "6.2. Bốc thăm may mắn",
+        title_en: "6.2. Lucky draw",
+        images: ["images/duan29_53.png", "images/duan29_54.png", "images/duan29_55.png"],
+      },
+      {
+        title: "7. Xuất hiện trên các trang báo lớn",
+        title_en: "7. Appearing in major newspapers",
+        images: ["images/duan29_56.png", "images/duan29_57.png", "images/duan29_58.png"],
+      },
+    ],
   },
   {
     cat: "gift",
     brand: "Bobby x BV Từ Dũ",
-    desc: "Ngày hội 'Mẹ và bé năng động'.",
-    url: "https://www.otbcreatives.com/otb-x-bobby-benh-vien-tu-du-ngay-hoi-me-va-be-nang-dong",
+    title: 'OTB x Bobby & Bệnh Viện Từ Dũ: Ngày Hội "Mẹ Và Bé Năng Động"',
+    title_en:
+      'OTB x Bobby & Từ Dũ Hospital: "Active Mom and Baby" Festival',
+    project: 'Ngày Hội "Mẹ Và Bé Năng Động"',
+    project_en: '"Active Mom and Baby" Festival',
+    sponsor: "Tã giấy Bobby",
+    sponsor_en: "Bobby Diapers",
+    sponsor_label: "Nhà tài trợ",
+    sponsor_label_en: "Sponsor",
+    location: "Bệnh viện Từ Dũ",
+    location_en: "Từ Dũ Hospital",
+    attendance: "Hơn 1.000 khách mời",
+    attendance_en: "Over 1,000 guests",
+    desc: "Ngày hội Mẹ và Bé năng động.",
+    desc_en: "Active Mom and Baby Festival.",
+    detail:
+      "Đến với ngày hội, các mẹ bầu được tham gia nhiều hoạt động bổ ích, chăm sóc sức khỏe và các bài tập vận động để có một thai kỳ khỏe mạnh như tập hít thở, yoga và tập sàn chậu.",
+    detail_en:
+      "At this vibrant festival, expectant mothers participated in a variety of beneficial activities focused on health care and physical exercises to promote a healthy pregnancy, including breathing exercises, yoga, and pelvic floor workouts.",
+    detail_outro:
+      "Ngoài ra, các mẹ còn được nghe tư vấn trực tiếp về kỹ năng chăm sóc trẻ sơ sinh từ các bác sĩ và chuyên gia Bệnh viện Từ Dũ như kỹ năng thay tã, tắm bé và chăm sóc rốn cho bé.",
+    detail_outro_en:
+      "Additionally, mothers received direct consultations from doctors and experts at Từ Dũ Hospital on essential newborn care skills such as diaper changing, bathing, and umbilical cord care.",
+    gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
+    gallery_title_en: "Some highlighted images from the event:",
+    gallery_sections: [
+      {
+        title: "1. Khu vực cổng chào",
+        title_en: "1. Welcome gate area",
+        images: ["images/duan30_2.png", "images/duan30_3.png", "images/duan30_4.png"],
+      },
+      {
+        title: "2. Khách mời đến đăng ký từ sáng sớm",
+        title_en: "2. Guests arrive early for registration",
+        images: ["images/duan30_5.png", "images/duan30_6.png", "images/duan30_7.png"],
+      },
+      {
+        title: "3. Khai mạc chương trình",
+        title_en: "3. Opening ceremony",
+        images: ["images/duan30_8.png", "images/duan30_9.png", "images/duan30_10.png"],
+      },
+      {
+        title: "4. Toàn cảnh hội trường",
+        title_en: "4. Overview of the event hall",
+        images: ["images/duan30_11.png", "images/duan30_12.png", "images/duan30_13.png"],
+      },
+      {
+        title: "5. Bác sĩ Thanh Thủy chia sẻ chuyên đề “Phát hiện sớm và nuôi dưỡng trí thông minh ở trẻ em”",
+        title_en: "5. Dr. Thanh Thuy presents ‘Early Detection and Nurturing Children’s Intelligence’",
+        images: ["images/duan30_14.png", "images/duan30_15.png", "images/duan30_16.png"],
+      },
+      {
+        title: "6. Hoạt động thực hành",
+        title_en: "6. Practical activities",
+        images: ["images/duan30_17.png", "images/duan30_18.png", "images/duan30_19.png"],
+      },
+      {
+        title: "7. Hoạt động mua sắm diễn ra nhộn nhịp suốt ngày hội",
+        title_en: "7. Bustling shopping activities throughout the festival",
+        images: ["images/duan30_20.png", "images/duan30_21.png", "images/duan30_22.png"],
+      },
+      {
+        title: "8. Các mẹ bầu thích thú với hoạt động massage bầu",
+        title_en: "8. Expectant mothers enjoy prenatal massage",
+        images: ["images/duan30_23.png", "images/duan30_24.png", "images/duan30_25.png"],
+      },
+      {
+        title: "9. Khu vực tầm soát sức khỏe",
+        title_en: "9. Health screening area",
+        images: ["images/duan30_26.png", "images/duan30_27.png", "images/duan30_28.png"],
+      },
+      {
+        title: "10. Chương trình rút thăm trúng thưởng",
+        title_en: "10. Lucky draw program",
+        images: ["images/duan30_29.png", "images/duan30_30.png", "images/duan30_31.png"],
+      },
+      {
+        title: "11. Xuất hiện trên các mặt báo",
+        title_en: "11. Appearing in the press",
+        images: ["images/duan30_32.png", "images/duan30_33.png", "images/duan30_34.png"],
+      },
+    ],
   },
 ];
 var WORK_CATS = [
@@ -2310,8 +2979,24 @@ function openProjectDetail(idx) {
     if (w.sponsor)
       metaItems.push(
         bi(
-          "Đơn vị tài trợ: " + w.sponsor,
-          "Sponsor: " + (w.sponsor_en || w.sponsor),
+          (w.sponsor_label || "Đơn vị tài trợ") + ": " + w.sponsor,
+          (w.sponsor_label_en || "Sponsor") +
+            ": " +
+            (w.sponsor_en || w.sponsor),
+        ),
+      );
+    if (w.location)
+      metaItems.push(
+        bi(
+          "Địa điểm: " + w.location,
+          "Location: " + (w.location_en || w.location),
+        ),
+      );
+    if (w.main_sponsors)
+      metaItems.push(
+        bi(
+          "Nhà tài trợ chính: " + w.main_sponsors,
+          "Main Sponsors: " + (w.main_sponsors_en || w.main_sponsors),
         ),
       );
     if (w.duration)
@@ -2333,6 +3018,13 @@ function openProjectDetail(idx) {
     if (w.scale)
       metaItems.push(
         bi("Quy mô: " + w.scale, "Scale: " + (w.scale_en || w.scale)),
+      );
+    if (w.attendance)
+      metaItems.push(
+        bi(
+          "Số lượng tham dự: " + w.attendance,
+          "Number of attendees: " + (w.attendance_en || w.attendance),
+        ),
       );
     if (w.topic)
       metaItems.push(
@@ -2430,6 +3122,31 @@ function openProjectDetail(idx) {
         bi(w.detail_outro, w.detail_outro_en || w.detail_outro) +
         "</p>"
       : "";
+    var contributions =
+      Array.isArray(w.contributions) && w.contributions.length
+        ? '<h3 class="pd-section-title">' +
+          bi(
+            w.contributions_title || "Các đóng góp ấn tượng",
+            w.contributions_title_en || "Impressive Contributions",
+          ) +
+          '</h3><div class="pd-table-wrap"><table class="pd-table"><thead><tr><th>' +
+          bi("Hạng mục", "Item") +
+          "</th><th>" +
+          bi("Số lượng", "Quantity") +
+          "</th></tr></thead><tbody>" +
+          w.contributions
+            .map(function (row) {
+              return (
+                "<tr><td>" +
+                bi(row.item, row.item_en || row.item) +
+                "</td><td>" +
+                bi(row.quantity, row.quantity_en || row.quantity) +
+                "</td></tr>"
+              );
+            })
+            .join("") +
+          "</tbody></table></div>"
+        : "";
     var gallery =
       Array.isArray(w.gallery) && w.gallery.length
         ? '<div class="pd-gallery">' +
@@ -2477,7 +3194,9 @@ function openProjectDetail(idx) {
           })
           .join("")
       : "";
-    var galleryContent = gallerySections || galleryTitle + gallery;
+    var galleryContent = gallerySections
+      ? galleryTitle + gallerySections
+      : galleryTitle + gallery;
     body.innerHTML =
       '<div class="pd-panel"><div class="pd-content"><div class="pd-label">' +
       esc(cat) +
@@ -2495,6 +3214,7 @@ function openProjectDetail(idx) {
       detailSections +
       detailOutro +
       results +
+      contributions +
       galleryContent +
       '</div><div class="pd-actions"><button class="btn btn-pri" type="button" onclick="nav(\'contact\')">' +
       bi("Tư vấn chiến dịch tương tự", "Consult on a similar campaign") +
