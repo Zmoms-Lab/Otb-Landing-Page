@@ -1305,9 +1305,8 @@ var PROJECTS_BIG = [
         title:" 6. Báo chí đưa tin về ngày hội",
         title_en:"6. The press reported on the festival.",
         images: [
-          "images/duan14_20,png",
-          "images/duan14_21.png",
-          "images/duan14_22.png"
+          "images/duan14_20.png",
+          "images/duan14_21.png"
         ]
       }
     ],
@@ -1763,7 +1762,6 @@ var PROJECTS_BIG = [
         title_en:"Check in guests",
         images: [
           "images/duan20_17.png",
-          "images/duan20_18.png",
           "images/duan20_19.png"
         ]
       },
@@ -1883,7 +1881,7 @@ var PROJECTS_BIG = [
         title:"Photos of attendants",
         images:[
           "images/duan21_17.png",
-          "images/duan21.18.png",
+          "images/duan21_18.png",
           "images/duan21_19.png"
         ]
       },
@@ -2515,7 +2513,7 @@ var PROJECTS_BIG = [
       {
         title: "5. Chuyên gia tư vấn sức khỏe",
         title_en: "5. Health expert consultation",
-        images: ["images/duan29_47.png", "images/duan29_48.png", "images/duan29_49.png","images/duan29_43.png"],
+        images: ["images/duan29_43.png"],
       },
       {
         title: "6.1. Lắng nghe tư vấn và thăm khám",
@@ -2562,6 +2560,7 @@ var PROJECTS_BIG = [
       "Additionally, mothers received direct consultations from doctors and experts at Từ Dũ Hospital on essential newborn care skills such as diaper changing, bathing, and umbilical cord care.",
     gallery_title: "Một số hình ảnh nổi bật trong sự kiện:",
     gallery_title_en: "Some highlighted images from the event:",
+    cover: "images/duan30_1.png",
     gallery_sections: [
       {
         title: "1. Khu vực cổng chào",
@@ -2700,26 +2699,97 @@ var VALUES4 = [
 ];
 var NEWS3 = [
   {
-    img: "https://bizweb.dktcdn.net/100/307/659/articles/untitled-1.jpg?v=1749113158987",
-    date: "14 SEP",
+    img: "images/news-bac-ninh.png",
     title: "'Elderly Health-Care Festival' at Bắc Ninh General Hospital",
-    url: "https://www.otbcreatives.com/da-die-n-ra-nga-y-ho-i-cham-so-c-su-c-khoe-nguo-i-cao-tuo-i-ta-i-be-nh-vie-n-da-khoa-tinh-bac-ninh-ngay-12-09-2023-14-09-2023",
     title_vi:
-      "Ngày hội 'Chăm sóc sức khỏe người cao tuổi' tại Bệnh viện Đa khoa Bắc Ninh",
+      '“Ngày Hội Chăm Sóc Sức Khỏe Người Cao Tuổi” tại Bệnh viện Đa khoa Tỉnh Bắc Ninh',
+    intro_vi:
+      'Sau thành công nối tiếp từ các buổi gặp gỡ trong “Ngày Hội Chăm Sóc Sức Khỏe Người Cao Tuổi”, ngày 12/09/2023 và 14/09/2023, chương trình tiếp tục diễn ra với sự tham gia của hàng trăm cụ ông, cụ bà.',
+    intro_en:
+      "Following the success of previous Elderly Health-Care Festival gatherings, the program continued on September 12 and 14, 2023, with hundreds of elderly participants.",
+    detail_vi:
+      "Đây là những hoạt động thiết thực mà OTB cùng Bệnh viện Đa khoa Tỉnh Bắc Ninh và nhãn hàng Caryn triển khai nhằm chăm sóc, nâng cao sức khỏe người cao tuổi cũng như góp phần thực hiện thành công chiến lược dân số.",
+    detail_en:
+      "These practical activities were organized by OTB, Bắc Ninh General Hospital, and Caryn to care for and improve elderly health while contributing to the successful implementation of the population strategy.",
+    activities_vi: [
+      "Được đo huyết áp và test đường máu miễn phí trước chương trình.",
+      "Tham gia mini game và nhận quà thú vị.",
+      "Hướng dẫn tập luyện yoga phù hợp với người lớn tuổi.",
+      "Giải đáp mọi thắc mắc từ chuyên gia đầu ngành.",
+      "Thưởng thức chương trình văn nghệ giải trí.",
+    ],
+    activities_en: [
+      "Free blood pressure and blood glucose testing before the program.",
+      "Mini games with exciting gifts.",
+      "Yoga exercises suitable for older adults.",
+      "Questions answered by leading specialists.",
+      "Entertainment performances.",
+    ],
+    outro_vi:
+      "Biết ơn và cảm ơn Bệnh viện, cán bộ nhân viên Bệnh viện, nhãn hàng Caryn và huấn luyện viên yoga đã góp phần tạo nên thành công của chương trình, dành những điều tốt đẹp nhất cho người cao tuổi.",
+    outro_en:
+      "Our sincere thanks go to the hospital, its staff, Caryn, and the yoga instructor for contributing to the program’s success and bringing meaningful care to older adults.",
+    gallery: [
+      "images/news-bac-ninh-1.png",
+      "images/news-bac-ninh-2.png",
+      "images/news-bac-ninh-3.png",
+    ],
   },
   {
-    img: "images/hinh9.png",
-    date: "31 AUG",
+    img: "images/new-12-nam.png",
     title: "A 12-Year Journey — Our Pride",
-    url: "https://www.otbcreatives.com/hanh-trinh-12-nam-niem-tu-hao-cua-chung-toi",
-    title_vi: "Hành trình 12 năm — Niềm tự hào của chúng tôi",
+    title_vi: "Hành Trình 12 Năm – Niềm Tự Hào Của Chúng Tôi",
+    intro_vi:
+      "Ngày 28/08/2023 tại Liberty Central Saigon Citypoint Hotel đã diễn ra lễ kỷ niệm 12 năm thành lập công ty. Đây là sự kiện đầy ý nghĩa, nơi chúng tôi gửi lời cảm ơn trân trọng nhất đến Quý khách hàng và Quý đối tác đã luôn đồng hành cùng chúng tôi trong suốt thời gian qua.",
+    intro_en:
+      "On August 28, 2023, the company’s 12th anniversary celebration took place at Liberty Central Saigon Citypoint Hotel. This meaningful event was our opportunity to express sincere gratitude to the valued clients and partners who have accompanied us throughout the journey.",
+    paragraphs_vi: [
+      "Mọi thành công bắt đầu từ một tầm nhìn, và chúng tôi đã khao khát xây dựng một công ty mang đến giá trị thực sự cho khách hàng và cộng đồng. Trong những ngày đầu tiên, chúng tôi phải nỗ lực xác định đúng hướng phát triển, nhưng tâm huyết và đam mê luôn là động lực để không ngừng tiến lên.",
+      "Cùng với sự phát triển, chúng tôi đã gặp không ít khó khăn. Thị trường cạnh tranh khốc liệt, sự biến đổi công nghệ không ngừng và những thách thức kinh doanh đã trở thành những bài học quý báu. Chính từ những thất bại và sai lầm, chúng tôi học cách vươn mình, thích nghi và tạo ra các giải pháp mới.",
+      "Trong suốt hành trình 12 năm, chúng tôi tự hào về những bước đột phá đáng nhớ đã đạt được. Từ việc mở rộng quy mô hoạt động đến áp dụng công nghệ tiên tiến để tối ưu hóa sản phẩm và dịch vụ, chúng tôi luôn dành tâm huyết để mang đến những giá trị tốt đẹp hơn cho khách hàng.",
+      "Không gì quan trọng hơn việc xây dựng mối quan hệ tốt với khách hàng. Đây luôn là nguyên tắc hàng đầu của chúng tôi. Chúng tôi lắng nghe, học hỏi và đồng hành để hiểu rõ nhu cầu của khách hàng, từ đó cung cấp những giải pháp tốt nhất.",
+      "Chúng tôi không thể một mình chinh phục mọi thử thách. Đội ngũ đồng nghiệp và các đối tác chiến lược đã đồng hành trong suốt hành trình 12 năm. Sự gắn kết và hỗ trợ từ họ giúp chúng tôi vượt qua khó khăn và đạt được những thành công đáng tự hào.",
+      "Khi nhìn lại hành trình 12 năm, chúng tôi tự hào về những thành quả và giá trị đã mang lại. Tuy nhiên, hành trình này chưa bao giờ dừng lại. Chúng tôi sẽ tiếp tục đổi mới, thay đổi và vươn xa hơn nữa để đồng hành cùng sự phát triển của khách hàng, cộng đồng và toàn xã hội.",
+    ],
+    paragraphs_en: [
+      "Every success begins with a vision. We aspired to build a company that delivers genuine value to clients and the community. Although finding the right direction was difficult in the early days, dedication and passion kept us moving forward.",
+      "Growth also brought many difficulties. Fierce competition, constant technological change, and business challenges became valuable lessons. Failures and mistakes taught us to adapt, improve, and create new solutions.",
+      "Throughout our 12-year journey, we have been proud of many memorable breakthroughs. From expanding our operations to applying advanced technology to optimize products and services, we have remained committed to delivering greater value to our clients.",
+      "Nothing is more important than building strong client relationships. We listen, learn, and work alongside our clients to understand their needs and provide the best possible solutions.",
+      "We could not overcome every challenge alone. Our team and strategic partners have accompanied us throughout these 12 years. Their connection and support helped us navigate difficulties and achieve results of which we are deeply proud.",
+      "Looking back on this journey, we are proud of what we have achieved and the value we have created. Yet the journey never stops. We will continue to innovate, evolve, and reach further alongside our clients, communities, and society.",
+    ],
+    gallery: [
+      "images/new-12-nam-1.png",
+      "images/new-12-nam-2.png",
+    ],
+    outro_vi:
+      "Cuối cùng, chúng tôi xin gửi lời cảm ơn sâu sắc đến những người đã đồng hành cùng chúng tôi trong suốt 12 năm qua. Không có bạn, sẽ không có chúng tôi ngày hôm nay. Hãy cùng nhau hướng về tương lai với niềm tin và sự phấn đấu không ngừng!",
+    outro_en:
+      "Finally, we extend our deepest thanks to everyone who has accompanied us over the past 12 years. We would not be here today without you. Together, let us look toward the future with confidence and an unwavering commitment to progress.",
   },
   {
-    img: "https://bizweb.dktcdn.net/100/307/659/articles/test-nua.jpg?v=1749113337060",
+    img: "images/news-me-bau.png",
     date: "27 JUN",
     title: "OTB Helps Leading Brands Reach Expecting Mothers",
-    url: "https://www.otbcreatives.com/otb-mang-san-pham-tot-gia-yeu-thuong-den-me-tai-benh-vien-giup-me-tiep-can-va-trai-nghiem-cac-thuong-hieu-ta-sua-cho-me-va-be",
-    title_vi: "OTB giúp các nhãn hàng lớn tiếp cận mẹ bầu",
+    title_vi: "OTB Đồng Hành Cùng Các Thương Hiệu Hàng Đầu Tiếp Cận Đến Mẹ Bầu",
+    intro_vi:
+      "OTB Creatives không chỉ đóng vai trò là cầu nối giữa các thương hiệu tã và sữa hàng đầu với các bà bầu, mà còn tổ chức các sự kiện, hội thảo tiền sản, lớp tiền sản và lớp kỹ năng tiền sản trên toàn quốc.",
+    intro_en:
+      "OTB Creatives not only connects leading diaper and milk brands with expectant mothers, but also organizes events, prenatal seminars, prenatal classes, and maternity skills classes nationwide.",
+    paragraphs_vi: [
+      "Chúng tôi tận dụng mọi cơ hội để giới thiệu sản phẩm từ các thương hiệu lớn như Huggies, Bobby, Friso, Molfix và nhiều nhãn hàng khác đến gần hơn với các bà bầu. Đồng thời, OTB gửi những phần quà từ các nhãn hàng đến mẹ bầu khi đến khám tại hơn 100 bệnh viện trên toàn quốc.",
+      "Chúng tôi hiểu rằng việc lựa chọn những sản phẩm chất lượng và phù hợp cho mẹ và bé là rất quan trọng. Với sứ mệnh của mình, OTB không chỉ giúp mẹ dễ dàng tiếp cận các thương hiệu tã và sữa hàng đầu mà còn tạo ra một môi trường đáng tin cậy và hỗ trợ tại các bệnh viện.",
+    ],
+    paragraphs_en: [
+      "We use every opportunity to introduce products from major brands such as Huggies, Bobby, Friso, Molfix, and others to expectant mothers. OTB also delivers brand gifts to mothers attending appointments at more than 100 hospitals nationwide.",
+      "We understand how important it is to choose suitable, high-quality products for mothers and babies. Through its mission, OTB helps mothers access leading diaper and milk brands while creating a trusted and supportive environment within hospitals.",
+    ],
+    gallery: [
+      "images/news-me-bau-1.png",
+      "images/news-me-bau-2.png",
+      "images/news-me-bau-3.png",
+    ],
   },
 ];
 var NETWORK = [
@@ -2948,7 +3018,9 @@ function workCard(w, idx) {
     ' <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>'
   );
 }
+var DETAIL_NAV_PAGE = "projects";
 function openProjectDetail(idx) {
+  DETAIL_NAV_PAGE = "projects";
   var w = PROJECTS_BIG[idx];
   if (!w) {
     nav("projects");
@@ -3293,9 +3365,10 @@ function renderNews() {
     return (
       '<a class="news-card rv' +
       (" rv-d" + ((i % 3) + 1)) +
-      '" href="' +
-      esc(n.url) +
-      '" target="_blank" rel="noopener"><div class="nimg"><img src="' +
+      (n.url
+        ? '" href="' + esc(n.url) + '" target="_blank" rel="noopener"'
+        : '" href="#" onclick="openNewsDetail(' + i + '); return false;"') +
+      '><div class="nimg"><img src="' +
       esc(n.img) +
       '" alt="' +
       esc(n.title) +
@@ -3306,6 +3379,91 @@ function renderNews() {
       "</h4></div></a>"
     );
   }).join("");
+}
+function openNewsDetail(idx) {
+  var n = NEWS3[idx];
+  if (!n) {
+    nav("news");
+    return;
+  }
+  DETAIL_NAV_PAGE = "news";
+  var title = el("pd-title");
+  var desc = el("pd-desc");
+  var catEl = el("pd-cat");
+  var body = el("project-detail-body");
+  if (title) title.innerHTML = bi(n.title_vi, n.title);
+  if (desc) desc.textContent = n.date || "";
+  if (catEl) catEl.innerHTML = bi("Tin tức", "News");
+  if (body) {
+    var activities = Array.isArray(n.activities_vi)
+      ? '<ul class="pd-list">' +
+        n.activities_vi
+          .map(function (item, i) {
+            return (
+              "<li>" +
+              bi(item, (n.activities_en || [])[i] || item) +
+              "</li>"
+            );
+          })
+          .join("") +
+        "</ul>"
+      : "";
+    var paragraphs = Array.isArray(n.paragraphs_vi)
+      ? n.paragraphs_vi
+          .map(function (paragraph, i) {
+            return (
+              '<p class="pd-detail">' +
+              bi(paragraph, (n.paragraphs_en || [])[i] || paragraph) +
+              "</p>"
+            );
+          })
+          .join("")
+      : "";
+    var gallery =
+      Array.isArray(n.gallery) && n.gallery.length
+        ? '<h3 class="pd-section-title">' +
+          bi("Một số hình ảnh nổi bật trong sự kiện:", "Event highlights:") +
+          '</h3><div class="pd-gallery">' +
+          n.gallery
+            .map(function (src, i) {
+              return (
+                '<figure class="pd-gallery-item"><img src="' +
+                esc(src) +
+                '" alt="' +
+                esc((n.title_vi || n.title) + " " + (i + 1)) +
+                '" loading="lazy" onerror="this.closest(\'figure\').style.display=\'none\'"></figure>'
+              );
+            })
+            .join("") +
+          "</div>"
+        : "";
+    body.innerHTML =
+      '<div class="pd-panel"><div class="pd-content">' +
+      (n.img
+        ? '<img class="pd-lead-img" src="' +
+          esc(n.img) +
+          '" alt="' +
+          esc(n.title_vi || n.title) +
+          '">'
+        : "") +
+      '<p class="pd-intro">' +
+      bi(n.intro_vi || "", n.intro_en || n.intro_vi || "") +
+      "</p>" +
+      '<p class="pd-detail">' +
+      bi(n.detail_vi || "", n.detail_en || n.detail_vi || "") +
+      "</p>" +
+      paragraphs +
+      activities +
+      '<p class="pd-outro">' +
+      bi(n.outro_vi || "", n.outro_en || n.outro_vi || "") +
+      "</p>" +
+      gallery +
+      "</div>" +
+      '<div class="pd-actions"><button class="btn btn-out" type="button" onclick="nav(\'news\')">' +
+      bi("Quay lại tin tức", "Back to news") +
+      "</button></div></div>";
+  }
+  nav("project-detail", true);
 }
 function renderRecognition() {
   var g = el("recog-grid");
@@ -3407,7 +3565,7 @@ function _swapPage(page) {
   var pages = document.querySelectorAll(".page");
   for (var i = 0; i < pages.length; i++) pages[i].classList.remove("active");
   target.classList.add("active");
-  var navPage = page === "project-detail" ? "projects" : page;
+  var navPage = page === "project-detail" ? DETAIL_NAV_PAGE : page;
   var links = document.querySelectorAll(".nav-a");
   for (var k = 0; k < links.length; k++)
     links[k].classList.toggle(
